@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T17:27:46+00:00",
-    "generated_at_cst": "2026-10-17 01:27",
+    "generated_at": "2026-10-16T17:50:45+00:00",
+    "generated_at_cst": "2026-10-17 01:50",
     "timezone": "UTC",
     "data_mode": "sample",
     "backend": "sample",
     "window": "realtime",
     "metric": "Google Trends 相对热度指数（0-100，非绝对搜索量）",
     "note": "本页为离线示例数据（未接入真实 Google Trends），仅用于演示界面与流程，不代表真实搜索热度。",
-    "prev_snapshot_at": "2026-10-16T17:27:45+00:00"
+    "prev_snapshot_at": "2026-10-16T17:27:46+00:00"
   },
   "windows": [
     {

@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T17:27:46+00:00",
-    "generated_at_cst": "2026-10-17 01:27",
+    "generated_at": "2026-10-16T17:50:45+00:00",
+    "generated_at_cst": "2026-10-17 01:50",
     "timezone": "UTC",
     "data_mode": "sample",
     "backend": "sample",
     "window": "realtime",
     "metric": "Google Trends 相对热度指数（0-100，非绝对搜索量）",
     "note": "本页为离线示例数据（未接入真实 Google Trends），仅用于演示界面与流程，不代表真实搜索热度。",
-    "prev_snapshot_at": "2026-10-16T17:27:45+00:00"
+    "prev_snapshot_at": "2026-10-16T17:27:46+00:00"
   },
   "game_types": [
     {
@@ -92,8 +92,8 @@
             63,
             58
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Genshin Impact",
@@ -112,8 +112,8 @@
             63,
             61
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Genshin Impact",
@@ -132,8 +132,8 @@
             43,
             48
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Genshin Impact",
@@ -152,8 +152,8 @@
             59,
             66
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Genshin Impact",
@@ -172,8 +172,8 @@
             33,
             29
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -200,8 +200,8 @@
             57,
             60
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Honkai Star Rail",
@@ -220,8 +220,8 @@
             69,
             73
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Honkai Star Rail",
@@ -240,8 +240,8 @@
             28,
             29
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Honkai Star Rail",
@@ -260,8 +260,8 @@
             59,
             62
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Honkai Star Rail",
@@ -280,8 +280,8 @@
             67,
             72
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -308,8 +308,8 @@
             60,
             61
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Zenless Zone Zero",
@@ -328,8 +328,8 @@
             62,
             67
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Zenless Zone Zero",
@@ -348,8 +348,8 @@
             72,
             66
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Zenless Zone Zero",
@@ -368,8 +368,8 @@
             54,
             49
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Zenless Zone Zero",
@@ -388,8 +388,8 @@
             68,
             64
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -416,8 +416,8 @@
             42,
             42
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Honkai Impact 3rd",
@@ -436,8 +436,8 @@
             77,
             78
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Honkai Impact 3rd",
@@ -456,8 +456,8 @@
             29,
             34
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Honkai Impact 3rd",
@@ -476,8 +476,8 @@
             49,
             43
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Honkai Impact 3rd",
@@ -496,8 +496,8 @@
             34,
             36
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -524,8 +524,8 @@
             64,
             71
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Tower of Fantasy",
@@ -544,8 +544,8 @@
             36,
             38
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Tower of Fantasy",
@@ -564,8 +564,8 @@
             48,
             53
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Tower of Fantasy",
@@ -584,8 +584,8 @@
             73,
             69
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Tower of Fantasy",
@@ -604,8 +604,8 @@
             43,
             50
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -632,8 +632,8 @@
             59,
             66
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Wuthering Waves",
@@ -652,8 +652,8 @@
             68,
             76
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Wuthering Waves",
@@ -672,8 +672,8 @@
             35,
             40
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Wuthering Waves",
@@ -692,8 +692,8 @@
             44,
             46
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Wuthering Waves",
@@ -712,8 +712,8 @@
             76,
             71
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -740,8 +740,8 @@
             56,
             52
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Black Myth Wukong",
@@ -760,8 +760,8 @@
             43,
             36
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Black Myth Wukong",
@@ -780,8 +780,8 @@
             44,
             49
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Black Myth Wukong",
@@ -800,8 +800,8 @@
             47,
             45
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Black Myth Wukong",
@@ -820,8 +820,8 @@
             59,
             54
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -848,8 +848,8 @@
             58,
             57
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Naraka Bladepoint",
@@ -868,8 +868,8 @@
             49,
             48
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Naraka Bladepoint",
@@ -888,8 +888,8 @@
             47,
             44
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Naraka Bladepoint",
@@ -908,8 +908,8 @@
             62,
             68
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Naraka Bladepoint",
@@ -928,8 +928,8 @@
             47,
             40
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -956,8 +956,8 @@
             51,
             46
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Phantom Blade Zero",
@@ -976,8 +976,8 @@
             43,
             45
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Phantom Blade Zero",
@@ -996,8 +996,8 @@
             55,
             61
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Phantom Blade Zero",
@@ -1016,8 +1016,8 @@
             51,
             49
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Phantom Blade Zero",
@@ -1036,8 +1036,8 @@
             32,
             34
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1064,8 +1064,8 @@
             52,
             59
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Where Winds Meet",
@@ -1084,8 +1084,8 @@
             71,
             66
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Where Winds Meet",
@@ -1104,8 +1104,8 @@
             71,
             67
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Where Winds Meet",
@@ -1124,8 +1124,8 @@
             61,
             56
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Where Winds Meet",
@@ -1144,8 +1144,8 @@
             72,
             75
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1172,8 +1172,8 @@
             51,
             47
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Rise of Kingdoms",
@@ -1192,8 +1192,8 @@
             43,
             50
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Rise of Kingdoms",
@@ -1212,8 +1212,8 @@
             35,
             37
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Rise of Kingdoms",
@@ -1232,8 +1232,8 @@
             35,
             37
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Rise of Kingdoms",
@@ -1252,8 +1252,8 @@
             47,
             43
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1280,8 +1280,8 @@
             45,
             40
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "State of Survival",
@@ -1300,8 +1300,8 @@
             65,
             61
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "State of Survival",
@@ -1320,8 +1320,8 @@
             21,
             24
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "State of Survival",
@@ -1340,8 +1340,8 @@
             42,
             38
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "State of Survival",
@@ -1360,8 +1360,8 @@
             60,
             63
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1388,8 +1388,8 @@
             44,
             49
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Whiteout Survival",
@@ -1408,8 +1408,8 @@
             54,
             51
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Whiteout Survival",
@@ -1428,8 +1428,8 @@
             67,
             66
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Whiteout Survival",
@@ -1448,8 +1448,8 @@
             69,
             75
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Whiteout Survival",
@@ -1468,8 +1468,8 @@
             62,
             60
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1496,8 +1496,8 @@
             26,
             27
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Last War",
@@ -1516,8 +1516,8 @@
             58,
             64
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Last War",
@@ -1536,8 +1536,8 @@
             74,
             77
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Last War",
@@ -1556,8 +1556,8 @@
             62,
             61
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Last War",
@@ -1576,8 +1576,8 @@
             72,
             76
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1604,8 +1604,8 @@
             58,
             55
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Valorant China",
@@ -1624,8 +1624,8 @@
             49,
             51
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Valorant China",
@@ -1644,8 +1644,8 @@
             56,
             55
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Valorant China",
@@ -1664,8 +1664,8 @@
             56,
             60
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Valorant China",
@@ -1684,8 +1684,8 @@
             42,
             38
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1712,8 +1712,8 @@
             68,
             63
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "CrossFire",
@@ -1732,8 +1732,8 @@
             31,
             26
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "CrossFire",
@@ -1752,8 +1752,8 @@
             40,
             35
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "CrossFire",
@@ -1772,8 +1772,8 @@
             73,
             67
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "CrossFire",
@@ -1792,8 +1792,8 @@
             58,
             55
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1820,8 +1820,8 @@
             45,
             45
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "PUBG Mobile",
@@ -1840,8 +1840,8 @@
             41,
             36
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "PUBG Mobile",
@@ -1860,8 +1860,8 @@
             44,
             48
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "PUBG Mobile",
@@ -1880,8 +1880,8 @@
             43,
             41
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "PUBG Mobile",
@@ -1900,8 +1900,8 @@
             41,
             40
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -1928,8 +1928,8 @@
             55,
             59
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Mobile Legends",
@@ -1948,8 +1948,8 @@
             68,
             71
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Mobile Legends",
@@ -1968,8 +1968,8 @@
             65,
             74
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Mobile Legends",
@@ -1988,8 +1988,8 @@
             59,
             64
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Mobile Legends",
@@ -2008,8 +2008,8 @@
             58,
             60
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -2036,8 +2036,8 @@
             38,
             44
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Arena of Valor",
@@ -2056,8 +2056,8 @@
             34,
             37
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Arena of Valor",
@@ -2076,8 +2076,8 @@
             62,
             54
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Arena of Valor",
@@ -2096,8 +2096,8 @@
             58,
             61
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Arena of Valor",
@@ -2116,8 +2116,8 @@
             67,
             63
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     },
@@ -2144,8 +2144,8 @@
             67,
             68
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "us": {
           "t": "Eggy Party",
@@ -2164,8 +2164,8 @@
             56,
             53
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "eu": {
           "t": "Eggy Party",
@@ -2184,8 +2184,8 @@
             53,
             56
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "jp": {
           "t": "Eggy Party",
@@ -2204,8 +2204,8 @@
             53,
             54
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         },
         "sea": {
           "t": "Eggy Party",
@@ -2224,8 +2224,8 @@
             66,
             64
           ],
-          "d": null,
-          "p": null
+          "d": 0,
+          "p": 0.0
         }
       }
     }

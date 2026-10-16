@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T17:27:46+00:00",
-    "generated_at_cst": "2026-10-17 01:27",
+    "generated_at": "2026-10-16T17:50:45+00:00",
+    "generated_at_cst": "2026-10-17 01:50",
     "timezone": "UTC",
     "data_mode": "sample",
     "backend": "sample",
     "window": "realtime",
     "metric": "Google Trends 相对热度指数（0-100，非绝对搜索量）",
     "note": "本页为离线示例数据（未接入真实 Google Trends），仅用于演示界面与流程，不代表真实搜索热度。",
-    "prev_snapshot_at": "2026-10-16T17:27:45+00:00"
+    "prev_snapshot_at": "2026-10-16T17:27:46+00:00"
   },
   "site": {
     "id": "wordseeker",
@@ -402,8 +402,8 @@
           82,
           80
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hanfu",
@@ -422,8 +422,8 @@
           70,
           72
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Tower of Fantasy",
@@ -442,8 +442,8 @@
           64,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chengdu panda",
@@ -462,8 +462,8 @@
           69,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China visa free",
@@ -482,8 +482,8 @@
           70,
           70
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese culture",
@@ -502,8 +502,8 @@
           73,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Wuthering Waves",
@@ -522,8 +522,8 @@
           59,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Eggy Party",
@@ -542,8 +542,8 @@
           67,
           68
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Huawei",
@@ -562,8 +562,8 @@
           70,
           68
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea ceremony",
@@ -582,8 +582,8 @@
           76,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "AliExpress",
@@ -602,8 +602,8 @@
           61,
           65
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Baidu",
@@ -622,8 +622,8 @@
           68,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese street food",
@@ -642,8 +642,8 @@
           65,
           65
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese museums",
@@ -662,8 +662,8 @@
           68,
           65
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese New Year",
@@ -682,8 +682,8 @@
           61,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese drama",
@@ -702,8 +702,8 @@
           53,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xian terracotta army",
@@ -722,8 +722,8 @@
           58,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zenless Zone Zero",
@@ -742,8 +742,8 @@
           60,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea",
@@ -762,8 +762,8 @@
           67,
           62
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Star Rail",
@@ -782,8 +782,8 @@
           57,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Mobile Legends",
@@ -802,8 +802,8 @@
           55,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CrossFire",
@@ -822,8 +822,8 @@
           68,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "bubble tea",
@@ -842,8 +842,8 @@
           53,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese calligraphy",
@@ -862,8 +862,8 @@
           67,
           62
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China high speed rail",
@@ -882,8 +882,8 @@
           63,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "mandarin language",
@@ -902,8 +902,8 @@
           49,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Genshin Impact",
@@ -922,8 +922,8 @@
           63,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Where Winds Meet",
@@ -942,8 +942,8 @@
           52,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Naraka Bladepoint",
@@ -962,8 +962,8 @@
           58,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese medicine",
@@ -982,8 +982,8 @@
           54,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Temu",
@@ -1002,8 +1002,8 @@
           59,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DJI",
@@ -1022,8 +1022,8 @@
           48,
           52
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Valorant China",
@@ -1042,8 +1042,8 @@
           58,
           55
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Black Myth Wukong",
@@ -1062,8 +1062,8 @@
           56,
           52
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Whiteout Survival",
@@ -1082,8 +1082,8 @@
           44,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Beijing tour",
@@ -1102,8 +1102,8 @@
           42,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hotpot",
@@ -1122,8 +1122,8 @@
           44,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Harbin ice festival",
@@ -1142,8 +1142,8 @@
           44,
           47
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DeepSeek",
@@ -1162,8 +1162,8 @@
           51,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "TikTok",
@@ -1182,8 +1182,8 @@
           37,
           44
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Phantom Blade Zero",
@@ -1202,8 +1202,8 @@
           51,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shanghai travel",
@@ -1222,8 +1222,8 @@
           49,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Rise of Kingdoms",
@@ -1242,8 +1242,8 @@
           51,
           47
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Great Wall of China",
@@ -1262,8 +1262,8 @@
           42,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "PUBG Mobile",
@@ -1282,8 +1282,8 @@
           45,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese skincare",
@@ -1302,8 +1302,8 @@
           40,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "wuxia",
@@ -1322,8 +1322,8 @@
           52,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Arena of Valor",
@@ -1342,8 +1342,8 @@
           38,
           44
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Impact 3rd",
@@ -1362,8 +1362,8 @@
           42,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China eSIM",
@@ -1382,8 +1382,8 @@
           37,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "WeChat",
@@ -1402,8 +1402,8 @@
           49,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "State of Survival",
@@ -1422,8 +1422,8 @@
           45,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Guilin landscape",
@@ -1442,8 +1442,8 @@
           46,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xiaomi",
@@ -1462,8 +1462,8 @@
           44,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alipay",
@@ -1482,8 +1482,8 @@
           44,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shein",
@@ -1502,8 +1502,8 @@
           34,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Unitree robot",
@@ -1522,8 +1522,8 @@
           40,
           39
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "dim sum",
@@ -1542,8 +1542,8 @@
           32,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese supermarket",
@@ -1562,8 +1562,8 @@
           41,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alibaba",
@@ -1582,8 +1582,8 @@
           40,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "BYD",
@@ -1602,8 +1602,8 @@
           40,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese zodiac",
@@ -1622,8 +1622,8 @@
           32,
           34
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CATL battery",
@@ -1642,8 +1642,8 @@
           36,
           32
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Lunar New Year",
@@ -1662,8 +1662,8 @@
           27,
           29
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese car",
@@ -1682,8 +1682,8 @@
           32,
           30
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China travel",
@@ -1702,8 +1702,8 @@
           26,
           28
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Last War",
@@ -1722,8 +1722,8 @@
           26,
           27
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zhangjiajie",
@@ -1742,8 +1742,8 @@
           28,
           27
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       }
     ],
     "us": [
@@ -1764,8 +1764,8 @@
           81,
           84
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Impact 3rd",
@@ -1784,8 +1784,8 @@
           77,
           78
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Wuthering Waves",
@@ -1804,8 +1804,8 @@
           68,
           76
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "mandarin language",
@@ -1824,8 +1824,8 @@
           68,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DeepSeek",
@@ -1844,8 +1844,8 @@
           74,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Mobile Legends",
@@ -1864,8 +1864,8 @@
           68,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Star Rail",
@@ -1884,8 +1884,8 @@
           69,
           73
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Lunar New Year",
@@ -1904,8 +1904,8 @@
           63,
           70
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Temu",
@@ -1924,8 +1924,8 @@
           77,
           72
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China visa free",
@@ -1944,8 +1944,8 @@
           73,
           70
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese drama",
@@ -1964,8 +1964,8 @@
           66,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zenless Zone Zero",
@@ -1984,8 +1984,8 @@
           62,
           67
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alibaba",
@@ -2004,8 +2004,8 @@
           61,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Last War",
@@ -2024,8 +2024,8 @@
           58,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "AliExpress",
@@ -2044,8 +2044,8 @@
           65,
           68
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Moutai",
@@ -2064,8 +2064,8 @@
           72,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CATL battery",
@@ -2084,8 +2084,8 @@
           61,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Where Winds Meet",
@@ -2104,8 +2104,8 @@
           71,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese car",
@@ -2124,8 +2124,8 @@
           57,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "bubble tea",
@@ -2144,8 +2144,8 @@
           63,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea ceremony",
@@ -2164,8 +2164,8 @@
           52,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hanfu",
@@ -2184,8 +2184,8 @@
           53,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Genshin Impact",
@@ -2204,8 +2204,8 @@
           63,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hotpot",
@@ -2224,8 +2224,8 @@
           59,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "State of Survival",
@@ -2244,8 +2244,8 @@
           65,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "WeChat",
@@ -2264,8 +2264,8 @@
           53,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Harbin ice festival",
@@ -2284,8 +2284,8 @@
           58,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese calligraphy",
@@ -2304,8 +2304,8 @@
           63,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DJI",
@@ -2324,8 +2324,8 @@
           52,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese zodiac",
@@ -2344,8 +2344,8 @@
           51,
           55
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xian terracotta army",
@@ -2364,8 +2364,8 @@
           58,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Great Wall of China",
@@ -2384,8 +2384,8 @@
           45,
           53
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China high speed rail",
@@ -2404,8 +2404,8 @@
           48,
           52
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Valorant China",
@@ -2424,8 +2424,8 @@
           49,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Beijing tour",
@@ -2444,8 +2444,8 @@
           57,
           52
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Eggy Party",
@@ -2464,8 +2464,8 @@
           56,
           53
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese medicine",
@@ -2484,8 +2484,8 @@
           45,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Huawei",
@@ -2504,8 +2504,8 @@
           41,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alipay",
@@ -2524,8 +2524,8 @@
           47,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese supermarket",
@@ -2544,8 +2544,8 @@
           46,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Rise of Kingdoms",
@@ -2564,8 +2564,8 @@
           43,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese skincare",
@@ -2584,8 +2584,8 @@
           58,
           53
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Whiteout Survival",
@@ -2604,8 +2604,8 @@
           54,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Naraka Bladepoint",
@@ -2624,8 +2624,8 @@
           49,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese street food",
@@ -2644,8 +2644,8 @@
           39,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "TikTok",
@@ -2664,8 +2664,8 @@
           44,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Phantom Blade Zero",
@@ -2684,8 +2684,8 @@
           43,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "BYD",
@@ -2704,8 +2704,8 @@
           41,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chengdu panda",
@@ -2724,8 +2724,8 @@
           44,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shanghai travel",
@@ -2744,8 +2744,8 @@
           39,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shein",
@@ -2764,8 +2764,8 @@
           46,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese museums",
@@ -2784,8 +2784,8 @@
           37,
           39
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese New Year",
@@ -2804,8 +2804,8 @@
           33,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Tower of Fantasy",
@@ -2824,8 +2824,8 @@
           36,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Guilin landscape",
@@ -2844,8 +2844,8 @@
           39,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Arena of Valor",
@@ -2864,8 +2864,8 @@
           34,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Black Myth Wukong",
@@ -2884,8 +2884,8 @@
           43,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China eSIM",
@@ -2904,8 +2904,8 @@
           33,
           35
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "PUBG Mobile",
@@ -2924,8 +2924,8 @@
           41,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xiaomi",
@@ -2944,8 +2944,8 @@
           38,
           35
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea",
@@ -2964,8 +2964,8 @@
           35,
           32
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "wuxia",
@@ -2984,8 +2984,8 @@
           28,
           29
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "dim sum",
@@ -3004,8 +3004,8 @@
           29,
           28
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China travel",
@@ -3024,8 +3024,8 @@
           33,
           27
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese culture",
@@ -3044,8 +3044,8 @@
           29,
           25
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Baidu",
@@ -3064,8 +3064,8 @@
           27,
           25
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CrossFire",
@@ -3084,8 +3084,8 @@
           31,
           26
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zhangjiajie",
@@ -3104,8 +3104,8 @@
           24,
           23
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       }
     ],
     "eu": [
@@ -3126,8 +3126,8 @@
           65,
           74
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Last War",
@@ -3146,8 +3146,8 @@
           74,
           77
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "BYD",
@@ -3166,8 +3166,8 @@
           67,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hanfu",
@@ -3186,8 +3186,8 @@
           58,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "TikTok",
@@ -3206,8 +3206,8 @@
           60,
           67
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Whiteout Survival",
@@ -3226,8 +3226,8 @@
           67,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Where Winds Meet",
@@ -3246,8 +3246,8 @@
           71,
           67
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zenless Zone Zero",
@@ -3266,8 +3266,8 @@
           72,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Lunar New Year",
@@ -3286,8 +3286,8 @@
           54,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Baidu",
@@ -3306,8 +3306,8 @@
           65,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "dim sum",
@@ -3326,8 +3326,8 @@
           57,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Phantom Blade Zero",
@@ -3346,8 +3346,8 @@
           55,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "AliExpress",
@@ -3366,8 +3366,8 @@
           63,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "bubble tea",
@@ -3386,8 +3386,8 @@
           63,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese calligraphy",
@@ -3406,8 +3406,8 @@
           55,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese medicine",
@@ -3426,8 +3426,8 @@
           51,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Temu",
@@ -3446,8 +3446,8 @@
           54,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese car",
@@ -3466,8 +3466,8 @@
           60,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xiaomi",
@@ -3486,8 +3486,8 @@
           52,
           55
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CATL battery",
@@ -3506,8 +3506,8 @@
           50,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Guilin landscape",
@@ -3526,8 +3526,8 @@
           55,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Valorant China",
@@ -3546,8 +3546,8 @@
           56,
           55
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China high speed rail",
@@ -3566,8 +3566,8 @@
           50,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese drama",
@@ -3586,8 +3586,8 @@
           57,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Eggy Party",
@@ -3606,8 +3606,8 @@
           53,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea ceremony",
@@ -3626,8 +3626,8 @@
           60,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Arena of Valor",
@@ -3646,8 +3646,8 @@
           62,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Unitree robot",
@@ -3666,8 +3666,8 @@
           46,
           52
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Tower of Fantasy",
@@ -3686,8 +3686,8 @@
           48,
           53
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Huawei",
@@ -3706,8 +3706,8 @@
           45,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alipay",
@@ -3726,8 +3726,8 @@
           47,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Genshin Impact",
@@ -3746,8 +3746,8 @@
           43,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Black Myth Wukong",
@@ -3766,8 +3766,8 @@
           44,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea",
@@ -3786,8 +3786,8 @@
           46,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "mandarin language",
@@ -3806,8 +3806,8 @@
           53,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "PUBG Mobile",
@@ -3826,8 +3826,8 @@
           44,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alibaba",
@@ -3846,8 +3846,8 @@
           43,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese New Year",
@@ -3866,8 +3866,8 @@
           57,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Moutai",
@@ -3886,8 +3886,8 @@
           52,
           47
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hotpot",
@@ -3906,8 +3906,8 @@
           44,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Naraka Bladepoint",
@@ -3926,8 +3926,8 @@
           47,
           44
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chengdu panda",
@@ -3946,8 +3946,8 @@
           48,
           44
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese museums",
@@ -3966,8 +3966,8 @@
           38,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China eSIM",
@@ -3986,8 +3986,8 @@
           41,
           44
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Great Wall of China",
@@ -4006,8 +4006,8 @@
           40,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China travel",
@@ -4026,8 +4026,8 @@
           42,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shein",
@@ -4046,8 +4046,8 @@
           44,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Wuthering Waves",
@@ -4066,8 +4066,8 @@
           35,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zhangjiajie",
@@ -4086,8 +4086,8 @@
           33,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese supermarket",
@@ -4106,8 +4106,8 @@
           41,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Rise of Kingdoms",
@@ -4126,8 +4126,8 @@
           35,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "wuxia",
@@ -4146,8 +4146,8 @@
           40,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China visa free",
@@ -4166,8 +4166,8 @@
           43,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xian terracotta army",
@@ -4186,8 +4186,8 @@
           42,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese zodiac",
@@ -4206,8 +4206,8 @@
           44,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Impact 3rd",
@@ -4226,8 +4226,8 @@
           29,
           34
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CrossFire",
@@ -4246,8 +4246,8 @@
           40,
           35
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese street food",
@@ -4266,8 +4266,8 @@
           27,
           32
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "WeChat",
@@ -4286,8 +4286,8 @@
           32,
           31
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Beijing tour",
@@ -4306,8 +4306,8 @@
           33,
           33
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shanghai travel",
@@ -4326,8 +4326,8 @@
           34,
           32
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Star Rail",
@@ -4346,8 +4346,8 @@
           28,
           29
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DeepSeek",
@@ -4366,8 +4366,8 @@
           35,
           30
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Harbin ice festival",
@@ -4386,8 +4386,8 @@
           34,
           29
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese skincare",
@@ -4406,8 +4406,8 @@
           32,
           27
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DJI",
@@ -4426,8 +4426,8 @@
           23,
           26
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "State of Survival",
@@ -4446,8 +4446,8 @@
           21,
           24
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese culture",
@@ -4466,8 +4466,8 @@
           27,
           23
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       }
     ],
     "jp": [
@@ -4488,8 +4488,8 @@
           69,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese drama",
@@ -4508,8 +4508,8 @@
           73,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "TikTok",
@@ -4528,8 +4528,8 @@
           64,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hanfu",
@@ -4548,8 +4548,8 @@
           64,
           70
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese culture",
@@ -4568,8 +4568,8 @@
           61,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Tower of Fantasy",
@@ -4588,8 +4588,8 @@
           73,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Naraka Bladepoint",
@@ -4608,8 +4608,8 @@
           62,
           68
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alipay",
@@ -4628,8 +4628,8 @@
           59,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Genshin Impact",
@@ -4648,8 +4648,8 @@
           59,
           66
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CrossFire",
@@ -4668,8 +4668,8 @@
           73,
           67
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese museums",
@@ -4688,8 +4688,8 @@
           70,
           67
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Temu",
@@ -4708,8 +4708,8 @@
           69,
           67
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Mobile Legends",
@@ -4728,8 +4728,8 @@
           59,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Harbin ice festival",
@@ -4748,8 +4748,8 @@
           56,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Arena of Valor",
@@ -4768,8 +4768,8 @@
           58,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese calligraphy",
@@ -4788,8 +4788,8 @@
           55,
           62
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Star Rail",
@@ -4808,8 +4808,8 @@
           59,
           62
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Valorant China",
@@ -4828,8 +4828,8 @@
           56,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China visa free",
@@ -4848,8 +4848,8 @@
           64,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Last War",
@@ -4868,8 +4868,8 @@
           62,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xiaomi",
@@ -4888,8 +4888,8 @@
           60,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "bubble tea",
@@ -4908,8 +4908,8 @@
           54,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Baidu",
@@ -4928,8 +4928,8 @@
           60,
           59
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "wuxia",
@@ -4948,8 +4948,8 @@
           58,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shein",
@@ -4968,8 +4968,8 @@
           52,
           55
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CATL battery",
@@ -4988,8 +4988,8 @@
           48,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Where Winds Meet",
@@ -5008,8 +5008,8 @@
           61,
           56
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Eggy Party",
@@ -5028,8 +5028,8 @@
           53,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "mandarin language",
@@ -5048,8 +5048,8 @@
           64,
           57
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hotpot",
@@ -5068,8 +5068,8 @@
           42,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China eSIM",
@@ -5088,8 +5088,8 @@
           47,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DeepSeek",
@@ -5108,8 +5108,8 @@
           49,
           52
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alibaba",
@@ -5128,8 +5128,8 @@
           43,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese New Year",
@@ -5148,8 +5148,8 @@
           43,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Lunar New Year",
@@ -5168,8 +5168,8 @@
           49,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "AliExpress",
@@ -5188,8 +5188,8 @@
           48,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Phantom Blade Zero",
@@ -5208,8 +5208,8 @@
           51,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zenless Zone Zero",
@@ -5228,8 +5228,8 @@
           54,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Guilin landscape",
@@ -5248,8 +5248,8 @@
           43,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "WeChat",
@@ -5268,8 +5268,8 @@
           52,
           47
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese street food",
@@ -5288,8 +5288,8 @@
           48,
           48
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Wuthering Waves",
@@ -5308,8 +5308,8 @@
           44,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Black Myth Wukong",
@@ -5328,8 +5328,8 @@
           47,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese skincare",
@@ -5348,8 +5348,8 @@
           44,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DJI",
@@ -5368,8 +5368,8 @@
           38,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China high speed rail",
@@ -5388,8 +5388,8 @@
           38,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "dim sum",
@@ -5408,8 +5408,8 @@
           39,
           42
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea",
@@ -5428,8 +5428,8 @@
           42,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese medicine",
@@ -5448,8 +5448,8 @@
           48,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Impact 3rd",
@@ -5468,8 +5468,8 @@
           49,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Beijing tour",
@@ -5488,8 +5488,8 @@
           44,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese car",
@@ -5508,8 +5508,8 @@
           43,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "PUBG Mobile",
@@ -5528,8 +5528,8 @@
           43,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Unitree robot",
@@ -5548,8 +5548,8 @@
           40,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xian terracotta army",
@@ -5568,8 +5568,8 @@
           46,
           39
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chengdu panda",
@@ -5588,8 +5588,8 @@
           37,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese zodiac",
@@ -5608,8 +5608,8 @@
           35,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Rise of Kingdoms",
@@ -5628,8 +5628,8 @@
           35,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "State of Survival",
@@ -5648,8 +5648,8 @@
           42,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Moutai",
@@ -5668,8 +5668,8 @@
           34,
           37
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Great Wall of China",
@@ -5688,8 +5688,8 @@
           36,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese supermarket",
@@ -5708,8 +5708,8 @@
           31,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shanghai travel",
@@ -5728,8 +5728,8 @@
           30,
           35
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zhangjiajie",
@@ -5748,8 +5748,8 @@
           29,
           34
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Huawei",
@@ -5768,8 +5768,8 @@
           34,
           34
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea ceremony",
@@ -5788,8 +5788,8 @@
           29,
           31
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China travel",
@@ -5808,8 +5808,8 @@
           20,
           23
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "BYD",
@@ -5828,8 +5828,8 @@
           27,
           22
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       }
     ],
     "sea": [
@@ -5850,8 +5850,8 @@
           83,
           88
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese drama",
@@ -5870,8 +5870,8 @@
           86,
           86
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China visa free",
@@ -5890,8 +5890,8 @@
           84,
           86
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "mandarin language",
@@ -5910,8 +5910,8 @@
           88,
           85
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese New Year",
@@ -5930,8 +5930,8 @@
           84,
           84
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese zodiac",
@@ -5950,8 +5950,8 @@
           84,
           80
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Harbin ice festival",
@@ -5970,8 +5970,8 @@
           72,
           77
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "bubble tea",
@@ -5990,8 +5990,8 @@
           83,
           77
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Where Winds Meet",
@@ -6010,8 +6010,8 @@
           72,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Beijing tour",
@@ -6030,8 +6030,8 @@
           74,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Last War",
@@ -6050,8 +6050,8 @@
           72,
           76
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alibaba",
@@ -6070,8 +6070,8 @@
           67,
           74
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "TikTok",
@@ -6090,8 +6090,8 @@
           68,
           73
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hotpot",
@@ -6110,8 +6110,8 @@
           68,
           73
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CATL battery",
@@ -6130,8 +6130,8 @@
           77,
           74
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Lunar New Year",
@@ -6150,8 +6150,8 @@
           79,
           74
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Star Rail",
@@ -6170,8 +6170,8 @@
           67,
           72
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Unitree robot",
@@ -6190,8 +6190,8 @@
           75,
           75
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "dim sum",
@@ -6210,8 +6210,8 @@
           67,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xian terracotta army",
@@ -6230,8 +6230,8 @@
           63,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Wuthering Waves",
@@ -6250,8 +6250,8 @@
           76,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea ceremony",
@@ -6270,8 +6270,8 @@
           77,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese tea",
@@ -6290,8 +6290,8 @@
           78,
           71
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "AliExpress",
@@ -6310,8 +6310,8 @@
           70,
           69
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Huawei",
@@ -6330,8 +6330,8 @@
           64,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "WeChat",
@@ -6350,8 +6350,8 @@
           68,
           65
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "BYD",
@@ -6370,8 +6370,8 @@
           63,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese museums",
@@ -6390,8 +6390,8 @@
           66,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Great Wall of China",
@@ -6410,8 +6410,8 @@
           69,
           65
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zenless Zone Zero",
@@ -6430,8 +6430,8 @@
           68,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Arena of Valor",
@@ -6450,8 +6450,8 @@
           67,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "State of Survival",
@@ -6470,8 +6470,8 @@
           60,
           63
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Moutai",
@@ -6490,8 +6490,8 @@
           70,
           65
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Eggy Party",
@@ -6510,8 +6510,8 @@
           66,
           64
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China travel",
@@ -6530,8 +6530,8 @@
           65,
           62
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Mobile Legends",
@@ -6550,8 +6550,8 @@
           58,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese calligraphy",
@@ -6570,8 +6570,8 @@
           66,
           62
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Whiteout Survival",
@@ -6590,8 +6590,8 @@
           62,
           60
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Alipay",
@@ -6610,8 +6610,8 @@
           52,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese culture",
@@ -6630,8 +6630,8 @@
           63,
           61
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese medicine",
@@ -6650,8 +6650,8 @@
           65,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China eSIM",
@@ -6670,8 +6670,8 @@
           54,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "CrossFire",
@@ -6690,8 +6690,8 @@
           58,
           55
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Baidu",
@@ -6710,8 +6710,8 @@
           62,
           58
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Zhangjiajie",
@@ -6730,8 +6730,8 @@
           59,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese street food",
@@ -6750,8 +6750,8 @@
           55,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Black Myth Wukong",
@@ -6770,8 +6770,8 @@
           59,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shanghai travel",
@@ -6790,8 +6790,8 @@
           50,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Guilin landscape",
@@ -6810,8 +6810,8 @@
           61,
           54
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Xiaomi",
@@ -6830,8 +6830,8 @@
           48,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "hanfu",
@@ -6850,8 +6850,8 @@
           58,
           53
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Tower of Fantasy",
@@ -6870,8 +6870,8 @@
           43,
           50
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chengdu panda",
@@ -6890,8 +6890,8 @@
           57,
           51
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "China high speed rail",
@@ -6910,8 +6910,8 @@
           47,
           49
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese car",
@@ -6930,8 +6930,8 @@
           53,
           47
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "wuxia",
@@ -6950,8 +6950,8 @@
           39,
           45
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DeepSeek",
@@ -6970,8 +6970,8 @@
           52,
           46
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Rise of Kingdoms",
@@ -6990,8 +6990,8 @@
           47,
           43
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "DJI",
@@ -7010,8 +7010,8 @@
           48,
           44
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Temu",
@@ -7030,8 +7030,8 @@
           43,
           41
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "PUBG Mobile",
@@ -7050,8 +7050,8 @@
           41,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Naraka Bladepoint",
@@ -7070,8 +7070,8 @@
           47,
           40
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Honkai Impact 3rd",
@@ -7090,8 +7090,8 @@
           34,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Valorant China",
@@ -7110,8 +7110,8 @@
           42,
           38
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Chinese skincare",
@@ -7130,8 +7130,8 @@
           34,
           36
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Phantom Blade Zero",
@@ -7150,8 +7150,8 @@
           32,
           34
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Genshin Impact",
@@ -7170,8 +7170,8 @@
           33,
           29
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       },
       {
         "t": "Shein",
@@ -7190,8 +7190,8 @@
           30,
           26
         ],
-        "d": null,
-        "p": null
+        "d": 0,
+        "p": 0.0
       }
     ]
   },
@@ -8529,5 +8529,5 @@
       "region": "us"
     }
   ],
-  "summary": "今日海外搜索中国相关关键字的最热话题：全球榜由 Moutai（茅台） 领跑（生活，热度 80）；游戏频道头部是 Tower of Fantasy（幻塔）（热度 72）；飙升最快的是 TikTok（抖音国际版），窗口内加速 33.5%。当前为示例数据（未接入真实 Trends），接入 SerpApi 或 pytrends 后自动切换。"
+  "summary": "今日海外搜索中国相关关键字的最热话题：全球榜由 Moutai（茅台） 领跑（生活，热度 80，排名与上期持平）；游戏频道头部是 Tower of Fantasy（幻塔）（热度 72）；飙升最快的是 TikTok（抖音国际版），窗口内加速 33.5%。当前为示例数据（未接入真实 Trends），接入 SerpApi 或 pytrends 后自动切换。"
 }

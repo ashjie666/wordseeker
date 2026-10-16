@@ -225,15 +225,20 @@ class PytrendsBackend:
 
         self.config = config
         self.log = log
-        proxies = config["collect"].get("proxies") or None
-        self._client = TrendReq(
-            hl="en-US",
-            tz=0,
-            timeout=(10, 45),
-            retries=int(config["collect"]["max_retries"]),
-            backoff_factor=2,
-            proxies=proxies,
-        )
+        # pytrends 的 proxies 只接受 '' / str / dict 列表；传 None 会在 GetGoogleCookie
+        # 的 len(self.proxies) 处抛 TypeError，被 auto 模式当成「pytrends 不可用」而退回
+        # 示例后端（CI 上实测过一次）。所以没有代理时干脆不传这个参数。
+        proxies = config["collect"].get("proxies") or ""
+        client_kwargs = {
+            "hl": "en-US",
+            "tz": 0,
+            "timeout": (10, 45),
+            "retries": int(config["collect"]["max_retries"]),
+            "backoff_factor": 2,
+        }
+        if proxies:
+            client_kwargs["proxies"] = proxies
+        self._client = TrendReq(**client_kwargs)
         self._interval = float(config["collect"]["min_interval_sec"])
         self._batch = int(config["collect"]["batch_size"])
         self._last_call = 0.0

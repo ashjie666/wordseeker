@@ -228,14 +228,12 @@ class PytrendsBackend:
         # pytrends 的 proxies 只接受 '' / str / dict 列表；传 None 会在 GetGoogleCookie
         # 的 len(self.proxies) 处抛 TypeError，被 auto 模式当成「pytrends 不可用」而退回
         # 示例后端（CI 上实测过一次）。所以没有代理时干脆不传这个参数。
+        #
+        # retries / backoff_factor 也不能传：一旦传了，pytrends 内部的 _get_data 会构造
+        # urllib3 的 Retry(method_whitelist=...)，而该参数在 urllib3 2.x 已被移除
+        # (TypeError: unexpected keyword argument 'method_whitelist')。重试改由 _fetch 负责。
         proxies = config["collect"].get("proxies") or ""
-        client_kwargs = {
-            "hl": "en-US",
-            "tz": 0,
-            "timeout": (10, 45),
-            "retries": int(config["collect"]["max_retries"]),
-            "backoff_factor": 2,
-        }
+        client_kwargs = {"hl": "en-US", "tz": 0, "timeout": (10, 45)}
         if proxies:
             client_kwargs["proxies"] = proxies
         self._client = TrendReq(**client_kwargs)
@@ -249,13 +247,35 @@ class PytrendsBackend:
             time.sleep(wait)
         self._last_call = time.time()
 
+    def _fetch(self, call):
+        """带节奏控制与重试地执行一次 pytrends 调用。
+
+        pytrends 自带的重试依赖 urllib3 1.x 的参数，在 2.x 上会直接抛异常，
+        所以这里自己重试：每次调用前先过 _throttle，失败按 retry_backoff_sec 递增等待。
+        """
+        attempts = int(self.config["collect"]["max_retries"])
+        backoff = float(self.config["collect"]["retry_backoff_sec"])
+        for attempt in range(1, attempts + 1):
+            self._throttle()
+            try:
+                return call()
+            except Exception as exc:  # noqa: BLE001 - 限流 / 网络异常一律重试，超过上限再抛出
+                self.log(f"  pytrends 第 {attempt} 次失败: {exc}")
+                if attempt >= attempts:
+                    raise
+                time.sleep(backoff * attempt)
+        return None
+
     def interest_over_time(self, terms, geo, timeframe):
         points = {term: [] for term in terms}
         for start in range(0, len(terms), self._batch):
             chunk = terms[start:start + self._batch]
-            self._throttle()
-            self._client.build_payload(chunk, cat=0, timeframe=timeframe, geo=geo)
-            frame = self._client.interest_over_time()
+
+            def _query(chunk=chunk):
+                self._client.build_payload(chunk, cat=0, timeframe=timeframe, geo=geo)
+                return self._client.interest_over_time()
+
+            frame = self._fetch(_query)
             if frame is None or frame.empty:
                 continue
             for term in chunk:
@@ -267,9 +287,12 @@ class PytrendsBackend:
 
     def related_queries(self, term, geo, timeframe):
         """pytrends 的 rising 榜拿不到数值（Google 已移除），value 给 null，前端按无值渲染。"""
-        self._throttle()
-        self._client.build_payload([term], cat=0, timeframe=timeframe, geo=geo)
-        block = (self._client.related_queries() or {}).get(term) or {}
+
+        def _query():
+            self._client.build_payload([term], cat=0, timeframe=timeframe, geo=geo)
+            return self._client.related_queries()
+
+        block = (self._fetch(_query) or {}).get(term) or {}
 
         def pack(frame, fallback_rank):
             if frame is None or getattr(frame, "empty", True):

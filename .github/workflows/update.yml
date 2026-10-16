@@ -1,0 +1,127 @@
+# 定时采集海外热搜榜，并把 web/ 目录发布到 GitHub Pages 与阿里云。
+#
+# cron 用 UTC：'0 * * * *' 即每小时整点（北京时间每小时 :00）跑一次。
+#
+# 配额提示（先读再改频率）：
+#   一次全量采集约 190 次上游查询 —— 主榜（5 个地区 × 68 词分批）
+#   + 游戏频道 3 个窗口 + 详情页 4 个窗口 + 相关搜索。
+#   SerpApi 免费额度远不够每小时跑；pytrends 免费但需要海外 IP、代理池与请求间隔。
+#   想用真实数据：在仓库 Settings → Secrets 里加 SERPAPI_KEY。
+#   想降频省额度：把下面的 cron 与 config.json 的 collect.cache_ttl_hours 一并调大，
+#   例如 cron '0 */6 * * *' 配 cache_ttl_hours 6（每天 4 次），或 '0 22 * * *' 配 24。
+#   未配置任何 key 时会自动退回离线示例后端，站点仍可运行，只是标注为「示例」。
+#
+# 部署拆成两个互不影响的 job，二者都 needs: collect，任一失败不阻塞另一个：
+#   - deploy  → GitHub Pages
+#   - aliyun  → rsync 同步到阿里云 /www/wwwroot/sites/wordseeker/
+# aliyun 需要仓库配好 SSH_HOST / SSH_USER / SSH_KEY 三个 Secrets，且服务器已装 rsync。
+
+name: update-and-deploy
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'collector/**'
+      - 'config.json'
+      - '.github/workflows/update.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore collector cache
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: wordseeker-data-${{ github.run_id }}
+          restore-keys: |
+            wordseeker-data-
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python -m collector.main
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add web/data
+          if git diff --quiet --cached; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(data): refresh wordseeker trends"
+            git push
+          fi
+
+      - name: Package site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      # 同一份采集产物也交给 aliyun 部署，避免它 checkout 到旧提交
+      - name: Upload site for aliyun
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: web
+
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # 与上面 deploy 并列、互不影响：它失败不会让 Pages 不发布，反之亦然。
+  aliyun:
+    needs: collect
+    runs-on: ubuntu-latest
+    steps:
+      # 取 collect 刚产出的同一份静态站（不要 checkout：那会拿到触发提交里的旧数据）
+      - uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: site
+
+      - name: 推送静态站到阿里云
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$SSH_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes" \
+            site/ "$SSH_USER@$SSH_HOST:/www/wwwroot/sites/wordseeker/"
+          ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=yes \
+            "$SSH_USER@$SSH_HOST" \
+            "chown -R www:www /www/wwwroot/sites/wordseeker && find /www/wwwroot/sites/wordseeker -type d -exec chmod 755 {} \; && find /www/wwwroot/sites/wordseeker -type f -exec chmod 644 {} \;"

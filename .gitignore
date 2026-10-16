@@ -1,0 +1,6 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 采集器本地缓存（榜单产物 web/data 需要提交，供 Pages/阿里云直接发布）
+data/cache/

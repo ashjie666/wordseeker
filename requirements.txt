@@ -1,0 +1,5 @@
+# WordSeeker 采集器依赖
+#
+# 只装 pytrends 就能跑通免费后端；SerpApi 后端走标准库 urllib，无需额外依赖。
+#   pip install -r requirements.txt
+pytrends>=4.9.2

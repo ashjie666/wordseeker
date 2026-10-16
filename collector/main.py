@@ -21,7 +21,9 @@ from .store import Cache, History
 CST = timezone(timedelta(hours=8))
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WEB_DATA = os.path.join(ROOT, "web", "data")
-COMPARE_WINDOWS = ("realtime", "7d", "30d")
+# 游戏对比图只保留这两个窗口：3 个窗口每次采集要多打一轮上游查询，而实时与 7 天
+# 已能覆盖「当下热度」与「一周走势」两个最常看的粒度。
+COMPARE_WINDOWS = ("realtime", "7d")
 
 
 def log(message):
@@ -167,7 +169,12 @@ def run(args):
 
     compare = {}
     for wid in COMPARE_WINDOWS:
-        series_map = fetch(game_terms, "", config["windows"][wid]["timeframe"])
+        # 主榜「全球」那一轮用的窗口正是 window_id，且覆盖了全部游戏词，所以同窗口直接复用，
+        # 不再为对比图重复打一轮上游查询。
+        if wid == window_id:
+            series_map = region_series["world"]
+        else:
+            series_map = fetch(game_terms, "", config["windows"][wid]["timeframe"])
         for term in game_terms:
             compare.setdefault(term, {})[wid] = thin(series_map.get(term) or [], 40)
 
@@ -191,7 +198,11 @@ def run(args):
 
     detail_series = {term: {} for term in detail_terms}
     for wid in config["detail_windows"]:
-        series_map = fetch(detail_terms, "", config["windows"][wid]["timeframe"])
+        # 同窗口（实时）已在主榜「全球」那轮抓过全量词表，复用即可；其余窗口才真正发起查询。
+        if wid == window_id:
+            series_map = region_series["world"]
+        else:
+            series_map = fetch(detail_terms, "", config["windows"][wid]["timeframe"])
         for term in detail_terms:
             detail_series[term][wid] = thin(series_map.get(term) or [], 60)
 

@@ -7,10 +7,10 @@
   },
   "collect": {
     "backend": "auto",
-    "min_interval_sec": 8,
+    "min_interval_sec": 5,
     "max_retries": 3,
     "retry_backoff_sec": 20,
-    "cache_ttl_hours": 1,
+    "cache_ttl_hours": 6,
     "proxies": [],
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",
     "batch_size": 5
@@ -23,7 +23,7 @@
     "90d": { "id": "90d", "label": "近 90 天", "timeframe": "today 3-m", "granularity": "day" }
   },
   "default_window": "realtime",
-  "detail_windows": ["realtime", "7d", "30d", "90d"],
+  "detail_windows": ["realtime", "7d", "30d"],
   "detail_max_terms": 34,
   "regions": [
     { "id": "world", "label": "全球", "geo": "", "group": "global", "group_label": "全球" },

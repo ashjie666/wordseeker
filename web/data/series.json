@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-16T19:13:41+00:00",
-    "generated_at_cst": "2026-10-17 03:13",
+    "generated_at": "2026-10-17T00:18:50+00:00",
+    "generated_at_cst": "2026-10-17 08:18",
     "timezone": "UTC",
     "data_mode": "live",
     "backend": "pytrends",
     "window": "realtime",
     "metric": "Google Trends 相对热度指数（0-100，非绝对搜索量）",
     "note": "热度值以锚点词 China（定标 60）逐批校准后归一到 0-100，可在同地区内横向比较；不是绝对搜索量。",
-    "prev_snapshot_at": "2026-10-16T18:14:22+00:00"
+    "prev_snapshot_at": "2026-10-16T19:13:41+00:00"
   },
   "windows": [
     {
@@ -2870,66 +2870,90 @@
       "related": {
         "rising": [
           {
-            "query": "Temu live",
-            "value": 371
-          },
-          {
-            "query": "Temu update",
-            "value": 194
-          },
-          {
-            "query": "Temu vs",
-            "value": 261
-          },
-          {
-            "query": "Temu release date",
-            "value": 121
-          },
-          {
-            "query": "Temu review",
-            "value": 398
-          },
-          {
-            "query": "Temu wiki",
-            "value": 462
+            "query": "temu danmark",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Temu",
+            "query": "temu de",
             "value": 100
           },
           {
-            "query": "CATL battery",
-            "value": 48
+            "query": "shein",
+            "value": 97
           },
           {
-            "query": "BYD",
-            "value": 32
+            "query": "aliexpress",
+            "value": 94
           },
           {
-            "query": "TikTok",
-            "value": 24
+            "query": "temu uk",
+            "value": 91
           },
           {
-            "query": "Huawei",
-            "value": 19
+            "query": "temu canada",
+            "value": 88
           },
           {
-            "query": "Xiaomi",
-            "value": 16
+            "query": "temu online",
+            "value": 85
           },
           {
-            "query": "DJI",
-            "value": 13
+            "query": "what is temu",
+            "value": 82
           },
           {
-            "query": "Unitree robot",
-            "value": 12
+            "query": "temu login",
+            "value": 79
           },
           {
-            "query": "Baidu",
-            "value": 10
+            "query": "temu app",
+            "value": 76
+          },
+          {
+            "query": "temu australia",
+            "value": 73
+          },
+          {
+            "query": "temu shopping",
+            "value": 70
+          },
+          {
+            "query": "temu france",
+            "value": 67
+          },
+          {
+            "query": "temu shop",
+            "value": 64
+          },
+          {
+            "query": "temu deutschland",
+            "value": 61
+          },
+          {
+            "query": "temu seller",
+            "value": 58
+          },
+          {
+            "query": "te",
+            "value": 55
+          },
+          {
+            "query": "temu colombia",
+            "value": 52
+          },
+          {
+            "query": "temu website",
+            "value": 49
+          },
+          {
+            "query": "temu mexico",
+            "value": 46
+          },
+          {
+            "query": "temu online shopping",
+            "value": 43
           }
         ]
       },
@@ -4354,68 +4378,87 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "AliExpress live",
-            "value": 195
-          },
-          {
-            "query": "AliExpress worth it",
-            "value": 439
-          },
-          {
-            "query": "AliExpress wiki",
-            "value": 352
-          },
-          {
-            "query": "AliExpress gameplay",
-            "value": 398
-          },
-          {
-            "query": "AliExpress trailer",
-            "value": 445
-          },
-          {
-            "query": "AliExpress news",
-            "value": 134
-          }
-        ],
+        "rising": [],
         "top": [
           {
-            "query": "AliExpress",
+            "query": "temu",
             "value": 100
           },
           {
-            "query": "Chinese supermarket",
-            "value": 48
+            "query": "alibaba",
+            "value": 97
           },
           {
-            "query": "WeChat",
-            "value": 32
+            "query": "shein",
+            "value": 94
           },
           {
-            "query": "hotpot",
-            "value": 24
+            "query": "aliexpress tracking",
+            "value": 91
           },
           {
-            "query": "Chinese skincare",
-            "value": 19
+            "query": "ebay",
+            "value": 88
           },
           {
-            "query": "Chinese medicine",
-            "value": 16
+            "query": "ali",
+            "value": 85
           },
           {
-            "query": "Chinese tea",
-            "value": 13
+            "query": "aliexpress uk",
+            "value": 82
           },
           {
-            "query": "bubble tea",
-            "value": 12
+            "query": "what is aliexpress",
+            "value": 79
           },
           {
-            "query": "Moutai",
-            "value": 10
+            "query": "aliexpress españa",
+            "value": 76
+          },
+          {
+            "query": "aliexpress login",
+            "value": 73
+          },
+          {
+            "query": "aliexpress canada",
+            "value": 70
+          },
+          {
+            "query": "aliexpress china",
+            "value": 67
+          },
+          {
+            "query": "aliexpress site",
+            "value": 64
+          },
+          {
+            "query": "ali express",
+            "value": 61
+          },
+          {
+            "query": "code promo aliexpress",
+            "value": 58
+          },
+          {
+            "query": "aliexpress brasil",
+            "value": 55
+          },
+          {
+            "query": "aliexpress app",
+            "value": 52
+          },
+          {
+            "query": "shopee",
+            "value": 49
+          },
+          {
+            "query": "aliexpress usa",
+            "value": 46
+          },
+          {
+            "query": "aliexpress france",
+            "value": 43
           }
         ]
       },
@@ -5089,68 +5132,87 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Huawei vs",
-            "value": 274
-          },
-          {
-            "query": "Huawei 2026",
-            "value": 475
-          },
-          {
-            "query": "Huawei wiki",
-            "value": 231
-          },
-          {
-            "query": "Huawei release date",
-            "value": 127
-          },
-          {
-            "query": "Huawei trailer",
-            "value": 148
-          },
-          {
-            "query": "Huawei review",
-            "value": 434
-          }
-        ],
+        "rising": [],
         "top": [
           {
-            "query": "Huawei",
+            "query": "huawei watch",
             "value": 100
           },
           {
-            "query": "Alibaba",
-            "value": 48
+            "query": "huawei pura",
+            "value": 97
           },
           {
-            "query": "Xiaomi",
-            "value": 32
+            "query": "huawei nova",
+            "value": 94
           },
           {
-            "query": "DJI",
-            "value": 24
+            "query": "huawei matepad",
+            "value": 91
           },
           {
-            "query": "Shein",
-            "value": 19
+            "query": "huawei watch gt",
+            "value": 88
           },
           {
-            "query": "Unitree robot",
-            "value": 16
+            "query": "huawei watch fit",
+            "value": 85
           },
           {
-            "query": "Baidu",
-            "value": 13
+            "query": "samsung",
+            "value": 82
           },
           {
-            "query": "TikTok",
-            "value": 12
+            "query": "huawei band",
+            "value": 79
           },
           {
-            "query": "CATL battery",
-            "value": 10
+            "query": "huawei phone",
+            "value": 76
+          },
+          {
+            "query": "huawei watch 5",
+            "value": 73
+          },
+          {
+            "query": "huawei freebuds",
+            "value": 70
+          },
+          {
+            "query": "huawei p30",
+            "value": 67
+          },
+          {
+            "query": "xiaomi",
+            "value": 64
+          },
+          {
+            "query": "huawei fit 5",
+            "value": 61
+          },
+          {
+            "query": "huawei d3",
+            "value": 58
+          },
+          {
+            "query": "huawei gt 7",
+            "value": 55
+          },
+          {
+            "query": "huawei pura 80",
+            "value": 52
+          },
+          {
+            "query": "huawei matebook",
+            "value": 49
+          },
+          {
+            "query": "huawei watch 6",
+            "value": 46
+          },
+          {
+            "query": "huawei tablet",
+            "value": 43
           }
         ]
       },
@@ -5824,68 +5886,87 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "DJI gameplay",
-            "value": 315
-          },
-          {
-            "query": "DJI update",
-            "value": 247
-          },
-          {
-            "query": "DJI guide",
-            "value": 184
-          },
-          {
-            "query": "DJI live",
-            "value": 420
-          },
-          {
-            "query": "DJI review",
-            "value": 422
-          },
-          {
-            "query": "DJI news",
-            "value": 459
-          }
-        ],
+        "rising": [],
         "top": [
           {
-            "query": "DJI",
+            "query": "dji osmo",
             "value": 100
           },
           {
-            "query": "Alibaba",
-            "value": 48
+            "query": "dji mini",
+            "value": 97
           },
           {
-            "query": "Unitree robot",
-            "value": 32
+            "query": "dji pocket",
+            "value": 94
           },
           {
-            "query": "TikTok",
-            "value": 24
+            "query": "dji osmo pocket",
+            "value": 91
           },
           {
-            "query": "Huawei",
-            "value": 19
+            "query": "drone",
+            "value": 88
           },
           {
-            "query": "Xiaomi",
-            "value": 16
+            "query": "drone dji",
+            "value": 85
           },
           {
-            "query": "Shein",
-            "value": 13
+            "query": "dji action",
+            "value": 82
           },
           {
-            "query": "Temu",
-            "value": 12
+            "query": "dji mic",
+            "value": 79
           },
           {
-            "query": "Baidu",
-            "value": 10
+            "query": "dji osmo 4",
+            "value": 76
+          },
+          {
+            "query": "dji pocket 3",
+            "value": 73
+          },
+          {
+            "query": "dji neo",
+            "value": 70
+          },
+          {
+            "query": "dji pocket 4",
+            "value": 67
+          },
+          {
+            "query": "dji osmo 3",
+            "value": 64
+          },
+          {
+            "query": "dji osmo pocket 3",
+            "value": 61
+          },
+          {
+            "query": "osmo pocket 3",
+            "value": 58
+          },
+          {
+            "query": "osmo pocket 4",
+            "value": 55
+          },
+          {
+            "query": "dji mini mic",
+            "value": 52
+          },
+          {
+            "query": "dji osmo pocket 4",
+            "value": 49
+          },
+          {
+            "query": "dji osmo action",
+            "value": 46
+          },
+          {
+            "query": "dji camera",
+            "value": 43
           }
         ]
       },
@@ -7985,68 +8066,87 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Genshin Impact trailer",
-            "value": 368
-          },
-          {
-            "query": "Genshin Impact 2026",
-            "value": 478
-          },
-          {
-            "query": "Genshin Impact release date",
-            "value": 295
-          },
-          {
-            "query": "Genshin Impact review",
-            "value": 472
-          },
-          {
-            "query": "Genshin Impact worth it",
-            "value": 405
-          },
-          {
-            "query": "Genshin Impact wiki",
-            "value": 284
-          }
-        ],
+        "rising": [],
         "top": [
           {
-            "query": "Genshin Impact",
+            "query": "genshin impact characters",
             "value": 100
           },
           {
-            "query": "Mobile Legends",
-            "value": 48
+            "query": "what is genshin impact",
+            "value": 97
           },
           {
-            "query": "Last War",
-            "value": 32
+            "query": "map genshin impact",
+            "value": 94
           },
           {
-            "query": "State of Survival",
-            "value": 24
+            "query": "genshin impact pc",
+            "value": 91
           },
           {
-            "query": "Zenless Zone Zero",
-            "value": 19
+            "query": "genshin impact download",
+            "value": 88
           },
           {
-            "query": "CrossFire",
-            "value": 16
+            "query": "genshin tier list",
+            "value": 85
           },
           {
-            "query": "Honkai Impact 3rd",
-            "value": 13
+            "query": "genshin impact tier list",
+            "value": 82
           },
           {
-            "query": "Eggy Party",
-            "value": 12
+            "query": "genshin impact banner",
+            "value": 79
           },
           {
-            "query": "Whiteout Survival",
-            "value": 10
+            "query": "genshin impact code",
+            "value": 76
+          },
+          {
+            "query": "genshin impact 7.2",
+            "value": 73
+          },
+          {
+            "query": "skirk",
+            "value": 70
+          },
+          {
+            "query": "genshin codes",
+            "value": 67
+          },
+          {
+            "query": "skirk genshin impact",
+            "value": 64
+          },
+          {
+            "query": "genshin impact codes",
+            "value": 61
+          },
+          {
+            "query": "codes genshin impact",
+            "value": 58
+          },
+          {
+            "query": "genshin impact reddit",
+            "value": 55
+          },
+          {
+            "query": "furina",
+            "value": 52
+          },
+          {
+            "query": "genshin impact furina",
+            "value": 49
+          },
+          {
+            "query": "genshin impact snezhnaya",
+            "value": 46
+          },
+          {
+            "query": "vesna genshin impact",
+            "value": 43
           }
         ]
       },
@@ -8722,66 +8822,34 @@
       "related": {
         "rising": [
           {
-            "query": "Chinese drama review",
-            "value": 216
-          },
-          {
-            "query": "Chinese drama wiki",
-            "value": 254
-          },
-          {
-            "query": "Chinese drama vs",
-            "value": 157
-          },
-          {
-            "query": "Chinese drama news",
-            "value": 143
-          },
-          {
-            "query": "Chinese drama update",
-            "value": 400
-          },
-          {
-            "query": "Chinese drama release date",
-            "value": 392
+            "query": "haunted by shadows of you chinese drama",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Chinese drama",
+            "query": "dailymotion",
             "value": 100
           },
           {
-            "query": "hanfu",
-            "value": 48
+            "query": "chinese short drama",
+            "value": 97
           },
           {
-            "query": "Chinese tea ceremony",
-            "value": 32
+            "query": "best chinese drama",
+            "value": 94
           },
           {
-            "query": "Chinese street food",
-            "value": 24
+            "query": "early spring chinese drama",
+            "value": 91
           },
           {
-            "query": "Chinese zodiac",
-            "value": 19
+            "query": "new chinese drama",
+            "value": 88
           },
           {
-            "query": "Chinese calligraphy",
-            "value": 16
-          },
-          {
-            "query": "Chinese New Year",
-            "value": 13
-          },
-          {
-            "query": "mandarin language",
-            "value": 12
-          },
-          {
-            "query": "wuxia",
-            "value": 10
+            "query": "haunted by shadows of you chinese drama",
+            "value": 85
           }
         ]
       },
@@ -9457,66 +9525,150 @@
       "related": {
         "rising": [
           {
-            "query": "bubble tea 2026",
-            "value": 194
+            "query": "kony bubble tea",
+            "value": null
           },
           {
-            "query": "bubble tea vs",
-            "value": 471
+            "query": "bubu bubble tea",
+            "value": null
           },
           {
-            "query": "bubble tea worth it",
-            "value": 312
+            "query": "capafy",
+            "value": null
           },
           {
-            "query": "bubble tea wiki",
-            "value": 462
+            "query": "zestaw do bubble tea",
+            "value": null
           },
           {
-            "query": "bubble tea gameplay",
-            "value": 420
+            "query": "l2 bubble tea",
+            "value": null
           },
           {
-            "query": "bubble tea news",
-            "value": 262
+            "query": "bubble tea spiel",
+            "value": null
+          },
+          {
+            "query": "bens bubble tea",
+            "value": null
+          },
+          {
+            "query": "cocos bubble tea",
+            "value": null
+          },
+          {
+            "query": "bubble tea golang",
+            "value": null
+          },
+          {
+            "query": "lets get bubble tea",
+            "value": null
+          },
+          {
+            "query": "the alley bubble tea",
+            "value": null
+          },
+          {
+            "query": "buble tea",
+            "value": null
+          },
+          {
+            "query": "67",
+            "value": null
+          },
+          {
+            "query": "bubble tea autour de moi",
+            "value": null
+          },
+          {
+            "query": "where is bubble tea from",
+            "value": null
+          },
+          {
+            "query": "google bubble tea game",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "bubble tea",
+            "query": "bubble me bubble tea",
             "value": 100
           },
           {
-            "query": "Chinese medicine",
-            "value": 48
+            "query": "bubble tea near me",
+            "value": 97
           },
           {
-            "query": "dim sum",
-            "value": 32
+            "query": "boba",
+            "value": 94
           },
           {
-            "query": "hotpot",
-            "value": 24
+            "query": "boba tea",
+            "value": 91
           },
           {
-            "query": "Alipay",
-            "value": 19
+            "query": "boba bubble tea",
+            "value": 88
           },
           {
-            "query": "Chinese skincare",
-            "value": 16
+            "query": "bubble milk tea",
+            "value": 85
           },
           {
-            "query": "Moutai",
-            "value": 13
+            "query": "coco bubble tea",
+            "value": 82
           },
           {
-            "query": "AliExpress",
-            "value": 12
+            "query": "milk tea",
+            "value": 79
           },
           {
-            "query": "Chinese tea",
-            "value": 10
+            "query": "what is bubble tea",
+            "value": 76
+          },
+          {
+            "query": "bubble tea shop",
+            "value": 73
+          },
+          {
+            "query": "google bubble tea",
+            "value": 70
+          },
+          {
+            "query": "taichi bubble tea",
+            "value": 67
+          },
+          {
+            "query": "taro",
+            "value": 64
+          },
+          {
+            "query": "matcha",
+            "value": 61
+          },
+          {
+            "query": "tapioca",
+            "value": 58
+          },
+          {
+            "query": "taro bubble tea",
+            "value": 55
+          },
+          {
+            "query": "tapioca bubble tea",
+            "value": 52
+          },
+          {
+            "query": "bubble tea house",
+            "value": 49
+          },
+          {
+            "query": "bubble tea game",
+            "value": 46
+          },
+          {
+            "query": "google doodle",
+            "value": 43
           }
         ]
       },
@@ -10957,70 +11109,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Last War wiki",
-            "value": 336
-          },
-          {
-            "query": "Last War worth it",
-            "value": 262
-          },
-          {
-            "query": "Last War release date",
-            "value": 341
-          },
-          {
-            "query": "Last War trailer",
-            "value": 283
-          },
-          {
-            "query": "Last War live",
-            "value": 220
-          },
-          {
-            "query": "Last War news",
-            "value": 210
-          }
-        ],
-        "top": [
-          {
-            "query": "Last War",
-            "value": 100
-          },
-          {
-            "query": "PUBG Mobile",
-            "value": 48
-          },
-          {
-            "query": "Black Myth Wukong",
-            "value": 32
-          },
-          {
-            "query": "Whiteout Survival",
-            "value": 24
-          },
-          {
-            "query": "Naraka Bladepoint",
-            "value": 19
-          },
-          {
-            "query": "CrossFire",
-            "value": 16
-          },
-          {
-            "query": "Phantom Blade Zero",
-            "value": 13
-          },
-          {
-            "query": "Arena of Valor",
-            "value": 12
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -13855,66 +13945,98 @@
       "related": {
         "rising": [
           {
-            "query": "Black Myth Wukong guide",
-            "value": 335
+            "query": "onimusha way of the sword",
+            "value": null
           },
           {
-            "query": "Black Myth Wukong update",
-            "value": 391
+            "query": "black myth wukong walkthrough",
+            "value": null
           },
           {
-            "query": "Black Myth Wukong review",
-            "value": 269
-          },
-          {
-            "query": "Black Myth Wukong release date",
-            "value": 249
-          },
-          {
-            "query": "Black Myth Wukong worth it",
-            "value": 223
-          },
-          {
-            "query": "Black Myth Wukong news",
-            "value": 417
+            "query": "black myth wukong budget",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Black Myth Wukong",
+            "query": "black myth wukong game",
             "value": 100
           },
           {
-            "query": "Eggy Party",
-            "value": 48
+            "query": "black myth wukong pc",
+            "value": 97
           },
           {
-            "query": "Tower of Fantasy",
-            "value": 32
+            "query": "steam",
+            "value": 94
           },
           {
-            "query": "Genshin Impact",
-            "value": 24
+            "query": "steam black myth wukong",
+            "value": 91
           },
           {
-            "query": "PUBG Mobile",
-            "value": 19
+            "query": "black myth wukong bosses",
+            "value": 88
           },
           {
-            "query": "Whiteout Survival",
-            "value": 16
+            "query": "black myth wukong price",
+            "value": 85
           },
           {
-            "query": "Naraka Bladepoint",
-            "value": 13
+            "query": "black myth wukong chapter 3",
+            "value": 82
           },
           {
-            "query": "Honkai Star Rail",
-            "value": 12
+            "query": "black myth wukong chapter 2",
+            "value": 79
           },
           {
-            "query": "Last War",
-            "value": 10
+            "query": "black myth wukong map",
+            "value": 76
+          },
+          {
+            "query": "black myth wukong xbox",
+            "value": 73
+          },
+          {
+            "query": "black myth wukong guide",
+            "value": 70
+          },
+          {
+            "query": "black myth wukong chapter 4",
+            "value": 67
+          },
+          {
+            "query": "black myth wukong release date",
+            "value": 64
+          },
+          {
+            "query": "black myth wukong requirements",
+            "value": 61
+          },
+          {
+            "query": "black myth wukong key",
+            "value": 58
+          },
+          {
+            "query": "black myth wukong walkthrough",
+            "value": 55
+          },
+          {
+            "query": "black myth wukong story",
+            "value": 52
+          },
+          {
+            "query": "black myth wukong review",
+            "value": 49
+          },
+          {
+            "query": "onimusha way of the sword",
+            "value": 46
+          },
+          {
+            "query": "black myth wukong budget",
+            "value": 43
           }
         ]
       },
@@ -14590,66 +14712,146 @@
       "related": {
         "rising": [
           {
-            "query": "Phantom Blade Zero worth it",
-            "value": 313
+            "query": "phantom blade zero character creation",
+            "value": null
           },
           {
-            "query": "Phantom Blade Zero news",
-            "value": 125
+            "query": "call of duty modern warfare 4 release date",
+            "value": null
           },
           {
-            "query": "Phantom Blade Zero vs",
-            "value": 240
+            "query": "is phantom blade zero getting a physical release",
+            "value": null
           },
           {
-            "query": "Phantom Blade Zero gameplay",
-            "value": 330
+            "query": "call of duty modern warfare 4",
+            "value": null
           },
           {
-            "query": "Phantom Blade Zero 2026",
-            "value": 439
+            "query": "phantom blade zero fecha de lanzamiento",
+            "value": null
           },
           {
-            "query": "Phantom Blade Zero wiki",
-            "value": 229
+            "query": "control resonant",
+            "value": null
+          },
+          {
+            "query": "modern warfare 4",
+            "value": null
+          },
+          {
+            "query": "ghost of tsushima",
+            "value": null
+          },
+          {
+            "query": "gta 6",
+            "value": null
+          },
+          {
+            "query": "phantom blade zero system requirements",
+            "value": null
+          },
+          {
+            "query": "wukong",
+            "value": null
+          },
+          {
+            "query": "phantom blade zero pc",
+            "value": null
+          },
+          {
+            "query": "phantom blade zero reddit",
+            "value": null
+          },
+          {
+            "query": "phantom blade zero price",
+            "value": null
+          },
+          {
+            "query": "phantom blade zero review",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Phantom Blade Zero",
+            "query": "phantom blade zero release",
             "value": 100
           },
           {
-            "query": "Honkai Star Rail",
-            "value": 48
+            "query": "phantom blade zero release date",
+            "value": 97
           },
           {
-            "query": "Eggy Party",
-            "value": 32
+            "query": "ps5",
+            "value": 94
           },
           {
-            "query": "Mobile Legends",
-            "value": 24
+            "query": "phantom blade zero ps5",
+            "value": 91
           },
           {
-            "query": "State of Survival",
-            "value": 19
+            "query": "phantom blade zero game",
+            "value": 88
           },
           {
-            "query": "PUBG Mobile",
-            "value": 16
+            "query": "phantom blade zero pc",
+            "value": 85
           },
           {
-            "query": "Last War",
-            "value": 13
+            "query": "phantom blade zero physical",
+            "value": 82
           },
           {
-            "query": "Where Winds Meet",
-            "value": 12
+            "query": "steam phantom blade zero",
+            "value": 79
           },
           {
-            "query": "Zenless Zone Zero",
-            "value": 10
+            "query": "phantom blade zero xbox",
+            "value": 76
+          },
+          {
+            "query": "phantom blade zero review",
+            "value": 73
+          },
+          {
+            "query": "gta 6",
+            "value": 70
+          },
+          {
+            "query": "phantom blade zero reddit",
+            "value": 67
+          },
+          {
+            "query": "phantom blade zero physical release",
+            "value": 64
+          },
+          {
+            "query": "phantom blade zero deluxe edition",
+            "value": 61
+          },
+          {
+            "query": "when does phantom blade zero come out",
+            "value": 58
+          },
+          {
+            "query": "phantom blade zero demo",
+            "value": 55
+          },
+          {
+            "query": "onimusha",
+            "value": 52
+          },
+          {
+            "query": "phantom blade zero release date ps5",
+            "value": 49
+          },
+          {
+            "query": "wukong",
+            "value": 46
+          },
+          {
+            "query": "phantom blade zero price",
+            "value": 43
           }
         ]
       },
@@ -15325,66 +15527,86 @@
       "related": {
         "rising": [
           {
-            "query": "Where Winds Meet news",
-            "value": 316
+            "query": "where winds meet recensione",
+            "value": null
           },
           {
-            "query": "Where Winds Meet release date",
-            "value": 464
-          },
-          {
-            "query": "Where Winds Meet update",
-            "value": 226
-          },
-          {
-            "query": "Where Winds Meet 2026",
-            "value": 121
-          },
-          {
-            "query": "Where Winds Meet vs",
-            "value": 281
-          },
-          {
-            "query": "Where Winds Meet trailer",
-            "value": 415
+            "query": "where winds meet character creation",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Where Winds Meet",
+            "query": "where the winds meet",
             "value": 100
           },
           {
-            "query": "State of Survival",
-            "value": 48
+            "query": "where winds meet download",
+            "value": 97
           },
           {
-            "query": "Zenless Zone Zero",
-            "value": 32
+            "query": "where winds meet game",
+            "value": 94
           },
           {
-            "query": "Valorant China",
-            "value": 24
+            "query": "apk",
+            "value": 91
           },
           {
-            "query": "Tower of Fantasy",
-            "value": 19
+            "query": "where winds meet apk",
+            "value": 88
           },
           {
-            "query": "Rise of Kingdoms",
-            "value": 16
+            "query": "where winds meet pc",
+            "value": 85
           },
           {
-            "query": "PUBG Mobile",
-            "value": 13
+            "query": "wwm",
+            "value": 82
           },
           {
-            "query": "Honkai Impact 3rd",
-            "value": 12
+            "query": "where winds meet steam",
+            "value": 79
           },
           {
-            "query": "Arena of Valor",
-            "value": 10
+            "query": "where winds meet mobile",
+            "value": 76
+          },
+          {
+            "query": "where winds meet android",
+            "value": 73
+          },
+          {
+            "query": "where winds meet map",
+            "value": 70
+          },
+          {
+            "query": "where winds meet ps5",
+            "value": 67
+          },
+          {
+            "query": "where winds meet build",
+            "value": 64
+          },
+          {
+            "query": "where wind meet",
+            "value": 61
+          },
+          {
+            "query": "code where winds meet",
+            "value": 58
+          },
+          {
+            "query": "where winds meet dlss 5",
+            "value": 55
+          },
+          {
+            "query": "where winds meet character creation",
+            "value": 52
+          },
+          {
+            "query": "where winds meet recensione",
+            "value": 49
           }
         ]
       },
@@ -16060,66 +16282,106 @@
       "related": {
         "rising": [
           {
-            "query": "Wuthering Waves gameplay",
-            "value": 236
+            "query": "wuthering waves concert",
+            "value": null
           },
           {
-            "query": "Wuthering Waves review",
-            "value": 455
+            "query": "wuthering waves review",
+            "value": null
           },
           {
-            "query": "Wuthering Waves 2026",
-            "value": 180
+            "query": "wuthering waves top up center",
+            "value": null
           },
           {
-            "query": "Wuthering Waves vs",
-            "value": 242
+            "query": "wuthering waves player count",
+            "value": null
           },
           {
-            "query": "Wuthering Waves guide",
-            "value": 141
-          },
-          {
-            "query": "Wuthering Waves live",
-            "value": 261
+            "query": "wuthering waves mods",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Wuthering Waves",
+            "query": "wuwa",
             "value": 100
           },
           {
-            "query": "PUBG Mobile",
-            "value": 48
+            "query": "genshin",
+            "value": 97
           },
           {
-            "query": "Genshin Impact",
-            "value": 32
+            "query": "wuthering waves game",
+            "value": 94
           },
           {
-            "query": "Naraka Bladepoint",
-            "value": 24
+            "query": "wuthering waves hsin",
+            "value": 91
           },
           {
-            "query": "Whiteout Survival",
-            "value": 19
+            "query": "hsin",
+            "value": 88
           },
           {
-            "query": "Eggy Party",
-            "value": 16
+            "query": "wuthering waves characters",
+            "value": 85
           },
           {
-            "query": "Phantom Blade Zero",
-            "value": 13
+            "query": "genshin impact",
+            "value": 82
           },
           {
-            "query": "Black Myth Wukong",
-            "value": 12
+            "query": "wuthering waves character",
+            "value": 79
           },
           {
-            "query": "CrossFire",
-            "value": 10
+            "query": "wuthering waves pc",
+            "value": 76
+          },
+          {
+            "query": "reddit wuthering waves",
+            "value": 73
+          },
+          {
+            "query": "wuthering waves steam",
+            "value": 70
+          },
+          {
+            "query": "wuthering waves banner",
+            "value": 67
+          },
+          {
+            "query": "wuthering waves map",
+            "value": 64
+          },
+          {
+            "query": "wuthering waves leaks",
+            "value": 61
+          },
+          {
+            "query": "wuthering waves concert",
+            "value": 58
+          },
+          {
+            "query": "wuthering waves codes",
+            "value": 55
+          },
+          {
+            "query": "wuthering waves anime",
+            "value": 52
+          },
+          {
+            "query": "wuthering waves 3.7",
+            "value": 49
+          },
+          {
+            "query": "wuthering waves size",
+            "value": 46
+          },
+          {
+            "query": "code wuthering waves",
+            "value": 43
           }
         ]
       },
@@ -17468,66 +17730,86 @@
       "related": {
         "rising": [
           {
-            "query": "Honkai Star Rail news",
-            "value": 269
+            "query": "honkai star rail leaks",
+            "value": null
           },
           {
-            "query": "Honkai Star Rail worth it",
-            "value": 246
-          },
-          {
-            "query": "Honkai Star Rail vs",
-            "value": 277
-          },
-          {
-            "query": "Honkai Star Rail update",
-            "value": 480
-          },
-          {
-            "query": "Honkai Star Rail trailer",
-            "value": 422
-          },
-          {
-            "query": "Honkai Star Rail 2026",
-            "value": 444
+            "query": "honkai star rail top up",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Honkai Star Rail",
+            "query": "genshin",
             "value": 100
           },
           {
-            "query": "CrossFire",
-            "value": 48
+            "query": "honkai impact",
+            "value": 97
           },
           {
-            "query": "Valorant China",
-            "value": 32
+            "query": "hsr",
+            "value": 94
           },
           {
-            "query": "Wuthering Waves",
-            "value": 24
+            "query": "genshin impact",
+            "value": 91
           },
           {
-            "query": "Tower of Fantasy",
-            "value": 19
+            "query": "honkai star rail leaks",
+            "value": 88
           },
           {
-            "query": "Whiteout Survival",
-            "value": 16
+            "query": "honkai star rail tier",
+            "value": 85
           },
           {
-            "query": "State of Survival",
-            "value": 13
+            "query": "tier list honkai star rail",
+            "value": 82
           },
           {
-            "query": "Zenless Zone Zero",
-            "value": 12
+            "query": "honkai star rail character",
+            "value": 79
           },
           {
-            "query": "Black Myth Wukong",
-            "value": 10
+            "query": "zzz",
+            "value": 76
+          },
+          {
+            "query": "kafka honkai star rail",
+            "value": 73
+          },
+          {
+            "query": "honkai star rail anime",
+            "value": 70
+          },
+          {
+            "query": "zenless zone zero",
+            "value": 67
+          },
+          {
+            "query": "honkai star rail banner",
+            "value": 64
+          },
+          {
+            "query": "honkai star rail pc",
+            "value": 61
+          },
+          {
+            "query": "honkai star rail wiki",
+            "value": 58
+          },
+          {
+            "query": "honkai star rail firefly",
+            "value": 55
+          },
+          {
+            "query": "blade honkai star rail",
+            "value": 52
+          },
+          {
+            "query": "honkai star rail top up",
+            "value": 49
           }
         ]
       },
@@ -18203,66 +18485,98 @@
       "related": {
         "rising": [
           {
-            "query": "Zenless Zone Zero review",
-            "value": 349
+            "query": "phoenix zenless zone zero",
+            "value": null
           },
           {
-            "query": "Zenless Zone Zero wiki",
-            "value": 232
+            "query": "zenless zone zero check in",
+            "value": null
           },
           {
-            "query": "Zenless Zone Zero worth it",
-            "value": 441
-          },
-          {
-            "query": "Zenless Zone Zero news",
-            "value": 314
-          },
-          {
-            "query": "Zenless Zone Zero vs",
-            "value": 385
-          },
-          {
-            "query": "Zenless Zone Zero 2026",
-            "value": 186
+            "query": "zenless zone zero character",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Zenless Zone Zero",
+            "query": "zzz",
             "value": 100
           },
           {
-            "query": "Arena of Valor",
-            "value": 48
+            "query": "zenless zone zero characters",
+            "value": 97
           },
           {
-            "query": "Wuthering Waves",
-            "value": 32
+            "query": "genshin",
+            "value": 94
           },
           {
-            "query": "Where Winds Meet",
-            "value": 24
+            "query": "phoenix zenless zone zero",
+            "value": 91
           },
           {
-            "query": "Last War",
-            "value": 19
+            "query": "zenless zone zero character",
+            "value": 88
           },
           {
-            "query": "Valorant China",
-            "value": 16
+            "query": "genshin impact",
+            "value": 85
           },
           {
-            "query": "Whiteout Survival",
-            "value": 13
+            "query": "jane doe",
+            "value": 82
           },
           {
-            "query": "State of Survival",
-            "value": 12
+            "query": "jane doe zenless zone zero",
+            "value": 79
           },
           {
-            "query": "Honkai Impact 3rd",
-            "value": 10
+            "query": "zenless zone zero reddit",
+            "value": 76
+          },
+          {
+            "query": "honkai star rail",
+            "value": 73
+          },
+          {
+            "query": "zenless zone zero tier list",
+            "value": 70
+          },
+          {
+            "query": "zenless zone zero banner",
+            "value": 67
+          },
+          {
+            "query": "miyabi",
+            "value": 64
+          },
+          {
+            "query": "wuthering waves",
+            "value": 61
+          },
+          {
+            "query": "zenless zone zero download",
+            "value": 58
+          },
+          {
+            "query": "zenless zone zero codes",
+            "value": 55
+          },
+          {
+            "query": "zenless zone zero mods",
+            "value": 52
+          },
+          {
+            "query": "zenless zone zero wise",
+            "value": 49
+          },
+          {
+            "query": "roxy zenless zone zero",
+            "value": 46
+          },
+          {
+            "query": "zenless zone zero wiki",
+            "value": 43
           }
         ]
       },
@@ -18938,66 +19252,58 @@
       "related": {
         "rising": [
           {
-            "query": "Chinese New Year 2026",
-            "value": 438
+            "query": "happy new year in chinese",
+            "value": null
           },
           {
-            "query": "Chinese New Year live",
-            "value": 391
-          },
-          {
-            "query": "Chinese New Year wiki",
-            "value": 149
-          },
-          {
-            "query": "Chinese New Year vs",
-            "value": 393
-          },
-          {
-            "query": "Chinese New Year gameplay",
-            "value": 291
-          },
-          {
-            "query": "Chinese New Year review",
-            "value": 180
+            "query": "chinese new year 1990",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Chinese New Year",
+            "query": "chinese new year 2027",
             "value": 100
           },
           {
-            "query": "Chinese museums",
-            "value": 48
+            "query": "chinese new year 2026",
+            "value": 97
           },
           {
-            "query": "Lunar New Year",
-            "value": 32
+            "query": "adidas",
+            "value": 94
           },
           {
-            "query": "Chinese street food",
-            "value": 24
+            "query": "chinese new year jacket",
+            "value": 91
           },
           {
-            "query": "Chinese calligraphy",
-            "value": 19
+            "query": "chinese lunar new year",
+            "value": 88
           },
           {
-            "query": "mandarin language",
-            "value": 16
+            "query": "lunar new year",
+            "value": 85
           },
           {
-            "query": "Chinese culture",
-            "value": 13
+            "query": "when is the chinese new year",
+            "value": 82
           },
           {
-            "query": "hanfu",
-            "value": 12
+            "query": "chinese new year animals",
+            "value": 79
           },
           {
-            "query": "Chinese zodiac",
-            "value": 10
+            "query": "chinese new year dragon",
+            "value": 76
+          },
+          {
+            "query": "happy new year in chinese",
+            "value": 73
+          },
+          {
+            "query": "chinese new year 1990",
+            "value": 70
           }
         ]
       },
@@ -20346,66 +20652,50 @@
       "related": {
         "rising": [
           {
-            "query": "Mobile Legends live",
-            "value": 356
-          },
-          {
-            "query": "Mobile Legends update",
-            "value": 400
-          },
-          {
-            "query": "Mobile Legends wiki",
-            "value": 381
-          },
-          {
-            "query": "Mobile Legends 2026",
-            "value": 300
-          },
-          {
-            "query": "Mobile Legends review",
-            "value": 401
-          },
-          {
-            "query": "Mobile Legends release date",
-            "value": 444
+            "query": "mobile legends diamond",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Mobile Legends",
+            "query": "mobile bang bang",
             "value": 100
           },
           {
-            "query": "Rise of Kingdoms",
-            "value": 48
+            "query": "mobile legends bang bang",
+            "value": 97
           },
           {
-            "query": "Honkai Star Rail",
-            "value": 32
+            "query": "mobile legends apk",
+            "value": 94
           },
           {
-            "query": "Eggy Party",
-            "value": 24
+            "query": "mobile legends hero",
+            "value": 91
           },
           {
-            "query": "Tower of Fantasy",
-            "value": 19
+            "query": "ml",
+            "value": 88
           },
           {
-            "query": "PUBG Mobile",
-            "value": 16
+            "query": "mobile legends diamond",
+            "value": 85
           },
           {
-            "query": "Arena of Valor",
-            "value": 13
+            "query": "mobile legend",
+            "value": 82
           },
           {
-            "query": "Wuthering Waves",
-            "value": 12
+            "query": "league of legends mobile",
+            "value": 79
           },
           {
-            "query": "Black Myth Wukong",
-            "value": 10
+            "query": "league of legends",
+            "value": 76
+          },
+          {
+            "query": "apex legends mobile",
+            "value": 73
           }
         ]
       },
@@ -21081,66 +21371,90 @@
       "related": {
         "rising": [
           {
-            "query": "PUBG Mobile update",
-            "value": 376
+            "query": "pubg mobile liquipedia",
+            "value": null
           },
           {
-            "query": "PUBG Mobile live",
-            "value": 421
-          },
-          {
-            "query": "PUBG Mobile vs",
-            "value": 413
-          },
-          {
-            "query": "PUBG Mobile guide",
-            "value": 179
-          },
-          {
-            "query": "PUBG Mobile 2026",
-            "value": 130
-          },
-          {
-            "query": "PUBG Mobile wiki",
-            "value": 361
+            "query": "call of duty",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "PUBG Mobile",
+            "query": "download pubg mobile",
             "value": 100
           },
           {
-            "query": "Arena of Valor",
-            "value": 48
+            "query": "pubg lite",
+            "value": 97
           },
           {
-            "query": "Wuthering Waves",
-            "value": 32
+            "query": "pubg lite mobile",
+            "value": 94
           },
           {
-            "query": "Naraka Bladepoint",
-            "value": 24
+            "query": "uc pubg mobile",
+            "value": 91
           },
           {
-            "query": "Genshin Impact",
-            "value": 19
+            "query": "uc",
+            "value": 88
           },
           {
-            "query": "Last War",
-            "value": 16
+            "query": "pubg mobile pc",
+            "value": 85
           },
           {
-            "query": "State of Survival",
-            "value": 13
+            "query": "pubg uc",
+            "value": 82
           },
           {
-            "query": "Zenless Zone Zero",
-            "value": 12
+            "query": "pubg mobile apk",
+            "value": 79
           },
           {
-            "query": "Tower of Fantasy",
-            "value": 10
+            "query": "pubg pc",
+            "value": 76
+          },
+          {
+            "query": "apk",
+            "value": 73
+          },
+          {
+            "query": "pubg mobile game",
+            "value": 70
+          },
+          {
+            "query": "gameloop",
+            "value": 67
+          },
+          {
+            "query": "pubg mobile lite download",
+            "value": 64
+          },
+          {
+            "query": "pubg light",
+            "value": 61
+          },
+          {
+            "query": "free fire",
+            "value": 58
+          },
+          {
+            "query": "pubg mobile global",
+            "value": 55
+          },
+          {
+            "query": "pubg mobile account",
+            "value": 52
+          },
+          {
+            "query": "call of duty",
+            "value": 49
+          },
+          {
+            "query": "pubg mobile liquipedia",
+            "value": 46
           }
         ]
       },
@@ -21814,70 +22128,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "CrossFire release date",
-            "value": 461
-          },
-          {
-            "query": "CrossFire update",
-            "value": 289
-          },
-          {
-            "query": "CrossFire guide",
-            "value": 155
-          },
-          {
-            "query": "CrossFire worth it",
-            "value": 278
-          },
-          {
-            "query": "CrossFire vs",
-            "value": 256
-          },
-          {
-            "query": "CrossFire review",
-            "value": 375
-          }
-        ],
-        "top": [
-          {
-            "query": "CrossFire",
-            "value": 100
-          },
-          {
-            "query": "Genshin Impact",
-            "value": 48
-          },
-          {
-            "query": "PUBG Mobile",
-            "value": 32
-          },
-          {
-            "query": "Whiteout Survival",
-            "value": 24
-          },
-          {
-            "query": "Valorant China",
-            "value": 19
-          },
-          {
-            "query": "Honkai Star Rail",
-            "value": 16
-          },
-          {
-            "query": "Arena of Valor",
-            "value": 13
-          },
-          {
-            "query": "Where Winds Meet",
-            "value": 12
-          },
-          {
-            "query": "Naraka Bladepoint",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -23222,70 +23474,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Arena of Valor live",
-            "value": 390
-          },
-          {
-            "query": "Arena of Valor 2026",
-            "value": 185
-          },
-          {
-            "query": "Arena of Valor release date",
-            "value": 406
-          },
-          {
-            "query": "Arena of Valor guide",
-            "value": 422
-          },
-          {
-            "query": "Arena of Valor gameplay",
-            "value": 240
-          },
-          {
-            "query": "Arena of Valor review",
-            "value": 269
-          }
-        ],
-        "top": [
-          {
-            "query": "Arena of Valor",
-            "value": 100
-          },
-          {
-            "query": "Valorant China",
-            "value": 48
-          },
-          {
-            "query": "Where Winds Meet",
-            "value": 32
-          },
-          {
-            "query": "Phantom Blade Zero",
-            "value": 24
-          },
-          {
-            "query": "Whiteout Survival",
-            "value": 19
-          },
-          {
-            "query": "Wuthering Waves",
-            "value": 16
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 13
-          },
-          {
-            "query": "State of Survival",
-            "value": 12
-          },
-          {
-            "query": "CrossFire",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -23959,66 +24149,42 @@
       "related": {
         "rising": [
           {
-            "query": "Baidu release date",
-            "value": 269
-          },
-          {
-            "query": "Baidu live",
-            "value": 322
-          },
-          {
-            "query": "Baidu gameplay",
-            "value": 332
-          },
-          {
-            "query": "Baidu review",
-            "value": 378
-          },
-          {
-            "query": "Baidu news",
-            "value": 463
-          },
-          {
-            "query": "Baidu 2026",
-            "value": 317
+            "query": "baidu cloud",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Baidu",
+            "query": "baidu maps",
             "value": 100
           },
           {
-            "query": "TikTok",
-            "value": 48
+            "query": "baidu com",
+            "value": 97
           },
           {
-            "query": "Alibaba",
-            "value": 32
+            "query": "百度",
+            "value": 94
           },
           {
-            "query": "BYD",
-            "value": 24
+            "query": "baidu translate",
+            "value": 91
           },
           {
-            "query": "DJI",
-            "value": 19
+            "query": "baidu download",
+            "value": 88
           },
           {
-            "query": "Shein",
-            "value": 16
+            "query": "baidu app",
+            "value": 85
           },
           {
-            "query": "Xiaomi",
-            "value": 13
+            "query": "what is baidu",
+            "value": 82
           },
           {
-            "query": "Huawei",
-            "value": 12
-          },
-          {
-            "query": "Unitree robot",
-            "value": 10
+            "query": "baidu cloud",
+            "value": 79
           }
         ]
       },
@@ -25365,70 +25531,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Honkai Impact 3rd vs",
-            "value": 161
-          },
-          {
-            "query": "Honkai Impact 3rd 2026",
-            "value": 470
-          },
-          {
-            "query": "Honkai Impact 3rd live",
-            "value": 467
-          },
-          {
-            "query": "Honkai Impact 3rd gameplay",
-            "value": 154
-          },
-          {
-            "query": "Honkai Impact 3rd wiki",
-            "value": 260
-          },
-          {
-            "query": "Honkai Impact 3rd worth it",
-            "value": 451
-          }
-        ],
-        "top": [
-          {
-            "query": "Honkai Impact 3rd",
-            "value": 100
-          },
-          {
-            "query": "Arena of Valor",
-            "value": 48
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 32
-          },
-          {
-            "query": "Zenless Zone Zero",
-            "value": 24
-          },
-          {
-            "query": "Honkai Star Rail",
-            "value": 19
-          },
-          {
-            "query": "CrossFire",
-            "value": 16
-          },
-          {
-            "query": "Phantom Blade Zero",
-            "value": 13
-          },
-          {
-            "query": "Naraka Bladepoint",
-            "value": 12
-          },
-          {
-            "query": "Where Winds Meet",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -26100,70 +26204,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Tower of Fantasy vs",
-            "value": 173
-          },
-          {
-            "query": "Tower of Fantasy wiki",
-            "value": 394
-          },
-          {
-            "query": "Tower of Fantasy update",
-            "value": 197
-          },
-          {
-            "query": "Tower of Fantasy 2026",
-            "value": 312
-          },
-          {
-            "query": "Tower of Fantasy trailer",
-            "value": 174
-          },
-          {
-            "query": "Tower of Fantasy news",
-            "value": 181
-          }
-        ],
-        "top": [
-          {
-            "query": "Tower of Fantasy",
-            "value": 100
-          },
-          {
-            "query": "Zenless Zone Zero",
-            "value": 48
-          },
-          {
-            "query": "Last War",
-            "value": 32
-          },
-          {
-            "query": "Eggy Party",
-            "value": 24
-          },
-          {
-            "query": "Black Myth Wukong",
-            "value": 19
-          },
-          {
-            "query": "Mobile Legends",
-            "value": 16
-          },
-          {
-            "query": "Valorant China",
-            "value": 13
-          },
-          {
-            "query": "Honkai Star Rail",
-            "value": 12
-          },
-          {
-            "query": "PUBG Mobile",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -26835,70 +26877,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Naraka Bladepoint review",
-            "value": 368
-          },
-          {
-            "query": "Naraka Bladepoint release date",
-            "value": 305
-          },
-          {
-            "query": "Naraka Bladepoint 2026",
-            "value": 160
-          },
-          {
-            "query": "Naraka Bladepoint guide",
-            "value": 171
-          },
-          {
-            "query": "Naraka Bladepoint update",
-            "value": 373
-          },
-          {
-            "query": "Naraka Bladepoint gameplay",
-            "value": 297
-          }
-        ],
-        "top": [
-          {
-            "query": "Naraka Bladepoint",
-            "value": 100
-          },
-          {
-            "query": "Arena of Valor",
-            "value": 48
-          },
-          {
-            "query": "Black Myth Wukong",
-            "value": 32
-          },
-          {
-            "query": "Valorant China",
-            "value": 24
-          },
-          {
-            "query": "Wuthering Waves",
-            "value": 19
-          },
-          {
-            "query": "CrossFire",
-            "value": 16
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 13
-          },
-          {
-            "query": "Whiteout Survival",
-            "value": 12
-          },
-          {
-            "query": "State of Survival",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -27570,70 +27550,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Rise of Kingdoms review",
-            "value": 256
-          },
-          {
-            "query": "Rise of Kingdoms update",
-            "value": 257
-          },
-          {
-            "query": "Rise of Kingdoms trailer",
-            "value": 290
-          },
-          {
-            "query": "Rise of Kingdoms news",
-            "value": 380
-          },
-          {
-            "query": "Rise of Kingdoms gameplay",
-            "value": 301
-          },
-          {
-            "query": "Rise of Kingdoms vs",
-            "value": 435
-          }
-        ],
-        "top": [
-          {
-            "query": "Rise of Kingdoms",
-            "value": 100
-          },
-          {
-            "query": "Whiteout Survival",
-            "value": 48
-          },
-          {
-            "query": "Zenless Zone Zero",
-            "value": 32
-          },
-          {
-            "query": "Naraka Bladepoint",
-            "value": 24
-          },
-          {
-            "query": "Eggy Party",
-            "value": 19
-          },
-          {
-            "query": "Valorant China",
-            "value": 16
-          },
-          {
-            "query": "Honkai Star Rail",
-            "value": 13
-          },
-          {
-            "query": "Honkai Impact 3rd",
-            "value": 12
-          },
-          {
-            "query": "PUBG Mobile",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -28305,70 +28223,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "State of Survival vs",
-            "value": 475
-          },
-          {
-            "query": "State of Survival live",
-            "value": 439
-          },
-          {
-            "query": "State of Survival gameplay",
-            "value": 232
-          },
-          {
-            "query": "State of Survival 2026",
-            "value": 285
-          },
-          {
-            "query": "State of Survival update",
-            "value": 250
-          },
-          {
-            "query": "State of Survival news",
-            "value": 421
-          }
-        ],
-        "top": [
-          {
-            "query": "State of Survival",
-            "value": 100
-          },
-          {
-            "query": "CrossFire",
-            "value": 48
-          },
-          {
-            "query": "Phantom Blade Zero",
-            "value": 32
-          },
-          {
-            "query": "Naraka Bladepoint",
-            "value": 24
-          },
-          {
-            "query": "Black Myth Wukong",
-            "value": 19
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 16
-          },
-          {
-            "query": "Mobile Legends",
-            "value": 13
-          },
-          {
-            "query": "Honkai Impact 3rd",
-            "value": 12
-          },
-          {
-            "query": "Honkai Star Rail",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -29042,66 +28898,42 @@
       "related": {
         "rising": [
           {
-            "query": "Whiteout Survival review",
-            "value": 138
-          },
-          {
-            "query": "Whiteout Survival vs",
-            "value": 200
-          },
-          {
-            "query": "Whiteout Survival news",
-            "value": 470
-          },
-          {
-            "query": "Whiteout Survival wiki",
-            "value": 164
-          },
-          {
-            "query": "Whiteout Survival 2026",
-            "value": 147
-          },
-          {
-            "query": "Whiteout Survival live",
-            "value": 289
+            "query": "gift code whiteout survival",
+            "value": null
           }
         ],
         "top": [
           {
-            "query": "Whiteout Survival",
+            "query": "wos",
             "value": 100
           },
           {
-            "query": "Last War",
-            "value": 48
+            "query": "whiteout survival codes",
+            "value": 97
           },
           {
-            "query": "PUBG Mobile",
-            "value": 32
+            "query": "gift code whiteout survival",
+            "value": 94
           },
           {
-            "query": "Honkai Star Rail",
-            "value": 24
+            "query": "mithril whiteout survival",
+            "value": 91
           },
           {
-            "query": "Zenless Zone Zero",
-            "value": 19
+            "query": "whiteout survival apk mod",
+            "value": 88
           },
           {
-            "query": "CrossFire",
-            "value": 16
+            "query": "whiteout survival store",
+            "value": 85
           },
           {
-            "query": "Honkai Impact 3rd",
-            "value": 13
+            "query": "winter siege whiteout survival",
+            "value": 82
           },
           {
-            "query": "Arena of Valor",
-            "value": 12
-          },
-          {
-            "query": "Wuthering Waves",
-            "value": 10
+            "query": "whiteout survival pc",
+            "value": 79
           }
         ]
       },
@@ -29775,70 +29607,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Valorant China worth it",
-            "value": 438
-          },
-          {
-            "query": "Valorant China live",
-            "value": 216
-          },
-          {
-            "query": "Valorant China update",
-            "value": 186
-          },
-          {
-            "query": "Valorant China release date",
-            "value": 229
-          },
-          {
-            "query": "Valorant China gameplay",
-            "value": 401
-          },
-          {
-            "query": "Valorant China trailer",
-            "value": 263
-          }
-        ],
-        "top": [
-          {
-            "query": "Valorant China",
-            "value": 100
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 48
-          },
-          {
-            "query": "Eggy Party",
-            "value": 32
-          },
-          {
-            "query": "Where Winds Meet",
-            "value": 24
-          },
-          {
-            "query": "Last War",
-            "value": 19
-          },
-          {
-            "query": "Honkai Impact 3rd",
-            "value": 16
-          },
-          {
-            "query": "Zenless Zone Zero",
-            "value": 13
-          },
-          {
-            "query": "Naraka Bladepoint",
-            "value": 12
-          },
-          {
-            "query": "CrossFire",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {
@@ -30510,70 +30280,8 @@
         }
       ],
       "related": {
-        "rising": [
-          {
-            "query": "Eggy Party review",
-            "value": 120
-          },
-          {
-            "query": "Eggy Party guide",
-            "value": 308
-          },
-          {
-            "query": "Eggy Party wiki",
-            "value": 289
-          },
-          {
-            "query": "Eggy Party release date",
-            "value": 470
-          },
-          {
-            "query": "Eggy Party trailer",
-            "value": 369
-          },
-          {
-            "query": "Eggy Party live",
-            "value": 405
-          }
-        ],
-        "top": [
-          {
-            "query": "Eggy Party",
-            "value": 100
-          },
-          {
-            "query": "Mobile Legends",
-            "value": 48
-          },
-          {
-            "query": "Rise of Kingdoms",
-            "value": 32
-          },
-          {
-            "query": "Zenless Zone Zero",
-            "value": 24
-          },
-          {
-            "query": "Valorant China",
-            "value": 19
-          },
-          {
-            "query": "Arena of Valor",
-            "value": 16
-          },
-          {
-            "query": "Phantom Blade Zero",
-            "value": 13
-          },
-          {
-            "query": "State of Survival",
-            "value": 12
-          },
-          {
-            "query": "Tower of Fantasy",
-            "value": 10
-          }
-        ]
+        "rising": [],
+        "top": []
       },
       "links": [
         {

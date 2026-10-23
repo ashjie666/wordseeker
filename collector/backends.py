@@ -259,10 +259,14 @@ class PytrendsBackend:
             self._throttle()
             try:
                 return call()
-            except Exception as exc:  # noqa: BLE001 - 限流 / 网络异常一律重试，超过上限再抛出
+            except Exception as exc:  # noqa: BLE001 - 限流 / 网络异常一律重试，超过上限再降级
                 self.log(f"  pytrends 第 {attempt} 次失败: {exc}")
                 if attempt >= attempts:
-                    raise
+                    # 重试耗尽后返回 None 而不是抛出：让这一批词缺失，其余批次照常采。
+                    # 整轮失败会导致后续部署全部跳过，代价远大于丢一批词。
+                    # 注意下游 fetch_series 只缓存非空结果，不会把限流造成的空值缓存数小时。
+                    self.log("  该批查询放弃，继续下一批")
+                    return None
                 time.sleep(backoff * attempt)
         return None
 

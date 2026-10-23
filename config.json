@@ -8,8 +8,8 @@
   "collect": {
     "backend": "auto",
     "min_interval_sec": 5,
-    "max_retries": 3,
-    "retry_backoff_sec": 20,
+    "max_retries": 4,
+    "retry_backoff_sec": 25,
     "cache_ttl_hours": 6,
     "proxies": [],
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0 Safari/537.36",

@@ -62,7 +62,9 @@ def fetch_series(backend, cache, terms, geo, timeframe, use_cache=True, anchor=N
         payload = cache.get(key) if use_cache else None
         if payload is None:
             payload = backend.interest_over_time(query, geo, timeframe)
-            cache.put(key, payload)
+            # 限流导致整批为空时不要写缓存：否则这批词会在 cache_ttl_hours 内一直是空的。
+            if any(payload.get("points", {}).values()):
+                cache.put(key, payload)
         points = payload.get("points") or {}
 
         if anchor and anchor in query:
@@ -86,7 +88,8 @@ def fetch_related(backend, cache, term, geo, timeframe, use_cache=True):
     if not hasattr(backend, "related_queries"):
         return {}
     result = backend.related_queries(term, geo, timeframe)
-    cache.put(key, result)
+    if result.get("points"):
+        cache.put(key, result)
     return result.get("points") or {}
 
 
@@ -140,6 +143,16 @@ def run(args):
                     "spark": sparkline(series_map.get(term) or [])} for term in terms_all]
         boards[rid] = build_board(entries, (previous or {}).get(rid))
         log(f"    {region['label']}：{len(terms_all)} 词")
+
+    # 大面积限流时宁可不更新：整榜塞满 0 值会把线上数据写坏，保留上一版更有价值。
+    # 单批失败已由 backend 降级成「该批缺失」，这里只拦「缺得太多」的极端情况。
+    world_ok = sum(1 for term in terms_all if region_series.get("world", {}).get(term))
+    min_terms = max(1, int(len(terms_all) * 0.6))
+    if world_ok < min_terms:
+        raise RuntimeError(
+            f"主榜「全球」仅采到 {world_ok}/{len(terms_all)} 个词（低于安全下限 {min_terms}），"
+            "疑似上游限流；本轮不写入数据，保留上一版。"
+        )
 
     # ---- 2) 飙升榜 ----
     log("2/4 计算飙升榜")

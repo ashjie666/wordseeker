@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T00:36:42+00:00",
-    "generated_at_cst": "2026-10-24 08:36",
+    "generated_at": "2026-10-24T06:20:03+00:00",
+    "generated_at_cst": "2026-10-24 14:20",
     "timezone": "UTC",
     "data_mode": "live",
     "backend": "pytrends",
     "window": "realtime",
     "metric": "Google Trends 相对热度指数（0-100，非绝对搜索量）",
     "note": "热度值以锚点词 China（定标 60）逐批校准后归一到 0-100，可在同地区内横向比较；不是绝对搜索量。",
-    "prev_snapshot_at": "2026-10-23T18:35:50+00:00"
+    "prev_snapshot_at": "2026-10-24T00:36:42+00:00"
   },
   "windows": [
     {
@@ -15014,8 +15014,126 @@
         }
       ],
       "related": {
-        "rising": [],
-        "top": []
+        "rising": [
+          {
+            "query": "code crossfire legends mobile",
+            "value": null
+          },
+          {
+            "query": "mobile legends recharge",
+            "value": null
+          },
+          {
+            "query": "mobile legends top up",
+            "value": null
+          },
+          {
+            "query": "mobile legends recarga",
+            "value": null
+          },
+          {
+            "query": "diamantes mobile legends",
+            "value": null
+          },
+          {
+            "query": "mobile legends diamonds",
+            "value": null
+          },
+          {
+            "query": "codashop mobile legends",
+            "value": null
+          },
+          {
+            "query": "codashop",
+            "value": null
+          },
+          {
+            "query": "mobile legends diamond",
+            "value": null
+          }
+        ],
+        "top": [
+          {
+            "query": "mobile legends bang bang",
+            "value": 100
+          },
+          {
+            "query": "mobile bang bang",
+            "value": 97
+          },
+          {
+            "query": "download mobile legends",
+            "value": 94
+          },
+          {
+            "query": "mobile legends game",
+            "value": 91
+          },
+          {
+            "query": "ml",
+            "value": 88
+          },
+          {
+            "query": "mlbb",
+            "value": 85
+          },
+          {
+            "query": "mobile legends apk",
+            "value": 82
+          },
+          {
+            "query": "mobile legends top up",
+            "value": 79
+          },
+          {
+            "query": "mobile legends diamond",
+            "value": 76
+          },
+          {
+            "query": "mobile legend",
+            "value": 73
+          },
+          {
+            "query": "mobile legends pc",
+            "value": 70
+          },
+          {
+            "query": "mobile legends code",
+            "value": 67
+          },
+          {
+            "query": "codashop",
+            "value": 64
+          },
+          {
+            "query": "codashop mobile legends",
+            "value": 61
+          },
+          {
+            "query": "mobile legends account",
+            "value": 58
+          },
+          {
+            "query": "league of legends",
+            "value": 55
+          },
+          {
+            "query": "league of legends mobile",
+            "value": 52
+          },
+          {
+            "query": "mobile legends diamonds",
+            "value": 49
+          },
+          {
+            "query": "diamantes mobile legends",
+            "value": 46
+          },
+          {
+            "query": "mobile legends recharge",
+            "value": 43
+          }
+        ]
       },
       "links": [
         {

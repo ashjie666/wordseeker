@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T22:54:12+00:00",
-    "generated_at_cst": "2026-11-22 06:54",
+    "generated_at": "2026-11-22T04:37:28+00:00",
+    "generated_at_cst": "2026-11-22 12:37",
     "timezone": "UTC",
     "data_mode": "live",
     "backend": "pytrends",
     "window": "realtime",
     "metric": "Google Trends 相对热度指数（0-100，非绝对搜索量）",
     "note": "热度值以锚点词 China（定标 60）逐批校准后归一到 0-100，可在同地区内横向比较；不是绝对搜索量。",
-    "prev_snapshot_at": "2026-11-21T14:14:28+00:00"
+    "prev_snapshot_at": "2026-11-21T22:54:12+00:00"
   },
   "windows": [
     {
